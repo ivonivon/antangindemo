@@ -68,7 +68,7 @@ preContent={
         id: 'preloader5',
         type: 'image',
         tag: 'img',
-        rect: ['46.3%', '3.8%','88px','88px','auto', 'auto'],
+        rect: ['50%', '3.8%','88px','88px','auto', 'auto'],
         fill: ["rgba(0,0,0,0)",'images/preloader5.gif','0px','0px']
     }]};//simpleContent
 

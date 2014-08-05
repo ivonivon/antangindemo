@@ -20,6 +20,12 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
+      Symbol.bindElementAction(compId, symbolName, "${_sym-env2}", "mouseover", function(sym, e) {
+         // insert code to be run when the mouse hovers over the object
+         
+      });
+      //Edge binding end
+
    })("stage");
    //Edge symbol end:'stage'
 
@@ -48,8 +54,22 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 250, function(sym, e) {
-         // insert code here
+      
+
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle9}", "mouseover", function(sym, e) {
+         var pos = sym.getPosition();
+         sym.play(pos);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle9}", "mouseout", function(sym, e) {
+         // insert code to be run when the mouse is moved off the object
+         var pos = sym.getPosition();
+         sym.playReverse(pos);
+         
+         
+
       });
       //Edge binding end
 
@@ -318,5 +338,328 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 
    })("sym-eyes");
    //Edge symbol end:'sym-eyes'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-ingredients'
+   (function(symbolName) {   
+   
+   })("sym-ingredients");
+   //Edge symbol end:'sym-ingredients'
+
+   //=========================================================
+   
+   //Edge symbol: 'symbol-ing-1'
+   (function(symbolName) {   
+   
+      Symbol.bindElementAction(compId, symbolName, "${_i1}", "mouseover", function(sym, e) {
+         var pos = sym.getPosition();
+         sym.play(pos);
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_i1}", "mouseout", function(sym, e) {
+         var pos = sym.getPosition();
+         sym.playReverse(pos);
+
+      });
+      //Edge binding end
+
+   })("symbol-ing-1");
+   //Edge symbol end:'symbol-ing-1'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-ing-2'
+   (function(symbolName) {   
+   
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle3}", "mouseover", function(sym, e) {
+         sym.stop('hover');
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle3}", "mouseout", function(sym, e) {
+         sym.stop(0);
+
+      });
+      //Edge binding end
+
+   })("sym-ing-2");
+   //Edge symbol end:'sym-ing-2'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-ing-3'
+   (function(symbolName) {   
+   
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle2}", "mouseover", function(sym, e) {
+         var pos = sym.getPosition();
+         sym.play(pos);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle2}", "mouseout", function(sym, e) {
+         sym.stop(0);
+
+      });
+      //Edge binding end
+
+   })("sym-ing-3");
+   //Edge symbol end:'sym-ing-3'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-ing-4'
+   (function(symbolName) {   
+   
+      
+
+      
+
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle10}", "mouseover", function(sym, e) {
+         sym.play();
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle10}", "mouseout", function(sym, e) {
+         sym.stop(0);
+
+      });
+      //Edge binding end
+
+   })("sym-ing-4");
+   //Edge symbol end:'sym-ing-4'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-ing-8'
+   (function(symbolName) {   
+   
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 2500, function(sym, e) {
+         sym.play(0);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle8}", "mouseover", function(sym, e) {
+         var pos = sym.getPosition();
+         sym.play(pos);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle8}", "mouseout", function(sym, e) {
+         var pos = sym.getPosition();
+         sym.playReverse(pos);
+         
+
+      });
+      //Edge binding end
+
+   })("sym-ing-8");
+   //Edge symbol end:'sym-ing-8'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-ing-7'
+   (function(symbolName) {   
+   
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle3}", "mouseover", function(sym, e) {
+         var pos = sym.getPosition();
+         sym.play(pos);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle3}", "mouseout", function(sym, e) {
+         // insert code to be run when the mouse is moved off the object
+         var pos = sym.getPosition();
+         sym.playReverse(pos);
+
+      });
+      //Edge binding end
+
+   })("sym-ing-7");
+   //Edge symbol end:'sym-ing-7'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-ing-6'
+   (function(symbolName) {   
+   
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle2}", "mouseover", function(sym, e) {
+         var pos = sym.getPosition();
+         sym.play(pos);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle2}", "mouseout", function(sym, e) {
+         var pos = sym.getPosition();
+         sym.playReverse(pos);
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 6000, function(sym, e) {
+         sym.play('hover');
+
+      });
+      //Edge binding end
+
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 6000, function(sym, e) {
+         sym.play('hover');
+
+      });
+      //Edge binding end
+
+   })("sym-ing-6");
+   //Edge symbol end:'sym-ing-6'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-ing-5'
+   (function(symbolName) {   
+   
+      Symbol.bindElementAction(compId, symbolName, "${_i5}", "mouseover", function(sym, e) {
+         var pos = sym.getPosition();
+         sym.play(pos);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_i5}", "mouseout", function(sym, e) {
+         var pos = sym.getPosition();
+         sym.playReverse(pos);
+
+      });
+      //Edge binding end
+
+   })("sym-ing-5");
+   //Edge symbol end:'sym-ing-5'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-ing-21'
+   (function(symbolName) {   
+   
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 6196, function(sym, e) {
+         sym.play(0);
+
+      });
+      //Edge binding end
+
+   })("sym-ing-21");
+   //Edge symbol end:'sym-ing-21'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-ing-41'
+   (function(symbolName) {   
+   
+   })("sym-ing-41");
+   //Edge symbol end:'sym-ing-41'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-boyEducated'
+   (function(symbolName) {   
+   
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 7000, function(sym, e) {
+         sym.play(0);
+
+      });
+      //Edge binding end
+
+   })("sym-boyEducated");
+   //Edge symbol end:'sym-boyEducated'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-girl-educated'
+   (function(symbolName) {   
+   
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 14000, function(sym, e) {
+         sym.play(0);
+
+      });
+      //Edge binding end
+
+   })("sym-girl-educated");
+   //Edge symbol end:'sym-girl-educated'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-kupu'
+   (function(symbolName) {   
+   
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 31785, function(sym, e) {
+         sym.play(0);
+
+      });
+      //Edge binding end
+
+   })("sym-kupu");
+   //Edge symbol end:'sym-kupu'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-kupu-fly'
+   (function(symbolName) {   
+   
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 1000, function(sym, e) {
+         sym.play(0);
+
+      });
+      //Edge binding end
+
+   })("sym-kupu-fly");
+   //Edge symbol end:'sym-kupu-fly'
+
+   //=========================================================
+   
+   //Edge symbol: 'symbol-download-boy'
+   (function(symbolName) {   
+   
+      Symbol.bindElementAction(compId, symbolName, "${_RoundRect3}", "click", function(sym, e) {
+         // insert code for mouse click here
+         // Navigate to a new URL in the current window
+         // (replace "_self" with appropriate target attribute)
+         window.open("files/kids_corner_boy.pdf", "_self");
+         
+         
+         
+
+      });
+      //Edge binding end
+
+   })("symbol-download-boy");
+   //Edge symbol end:'symbol-download-boy'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-download-girl'
+   (function(symbolName) {   
+   
+      Symbol.bindElementAction(compId, symbolName, "${_RoundRect2}", "click", function(sym, e) {
+         // insert code for mouse click here
+         // Navigate to a new URL in the current window
+         // (replace "_self" with appropriate target attribute)
+         window.open("files/kids_corner_girl.pdf", "_self");
+         
+         
+         
+
+      });
+      //Edge binding end
+
+   })("sym-download-girl");
+   //Edge symbol end:'sym-download-girl'
 
 })(jQuery, AdobeEdge, "EDGE-96553822");
