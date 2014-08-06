@@ -662,4 +662,164 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    })("sym-download-girl");
    //Edge symbol end:'sym-download-girl'
 
+   //=========================================================
+   
+   //Edge symbol: 'sym-logo'
+   (function(symbolName) {   
+   
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle2}", "mouseover", function(sym, e) {
+         var pos = sym.getPosition();
+         sym.play(pos);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle2}", "mouseout", function(sym, e) {
+         var pos = sym.getPosition();
+         sym.playReverse(pos);
+         
+         
+
+      });
+      //Edge binding end
+
+   })("sym-logo");
+   //Edge symbol end:'sym-logo'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-but-product'
+   (function(symbolName) {   
+   
+      Symbol.bindElementAction(compId, symbolName, "${_text-product}", "mouseover", function(sym, e) {
+         var pos = sym.getPosition();
+         sym.play(pos);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_text-product}", "mouseout", function(sym, e) {
+         var pos = sym.getPosition();
+         sym.playReverse(pos);
+         
+         
+
+      });
+      //Edge binding end
+
+   })("sym-but-product");
+   //Edge symbol end:'sym-but-product'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-but-ing'
+   (function(symbolName) {   
+   
+      Symbol.bindElementAction(compId, symbolName, "${_text-ingredients}", "mouseout", function(sym, e) {
+         var pos = sym.getPosition();
+         sym.playReverse(pos);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_text-ingredients}", "mouseover", function(sym, e) {
+         var pos = sym.getPosition();
+         sym.play(pos);
+
+      });
+      //Edge binding end
+
+   })("sym-but-ing");
+   //Edge symbol end:'sym-but-ing'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-but-news'
+   (function(symbolName) {   
+   
+      Symbol.bindElementAction(compId, symbolName, "${_text-ingredientsCopy}", "mouseout", function(sym, e) {
+         var pos = sym.getPosition();
+         sym.playReverse(pos);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_text-ingredientsCopy}", "mouseover", function(sym, e) {
+         var pos = sym.getPosition();
+         sym.play(pos);
+
+      });
+      //Edge binding end
+
+   })("sym-but-news");
+   //Edge symbol end:'sym-but-news'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-but-kids'
+   (function(symbolName) {   
+   
+      Symbol.bindElementAction(compId, symbolName, "${_text-ingredientsCopy2}", "mouseout", function(sym, e) {
+         var pos = sym.getPosition();
+         sym.playReverse(pos);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_text-ingredientsCopy2}", "mouseover", function(sym, e) {
+         var pos = sym.getPosition();
+         sym.play(pos);
+
+      });
+      //Edge binding end
+
+   })("sym-but-kids");
+   //Edge symbol end:'sym-but-kids'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-but-help'
+   (function(symbolName) {   
+   
+      Symbol.bindElementAction(compId, symbolName, "${_text-ingredientsCopy3}", "mouseout", function(sym, e) {
+         var pos = sym.getPosition();
+         sym.playReverse(pos);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_text-ingredientsCopy3}", "mouseover", function(sym, e) {
+         var pos = sym.getPosition();
+         sym.play(pos);
+
+      });
+      //Edge binding end
+
+   })("sym-but-help");
+   //Edge symbol end:'sym-but-help'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-arrow-know'
+   (function(symbolName) {   
+   
+   })("sym-arrow-know");
+   //Edge symbol end:'sym-arrow-know'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-cloud-yellow-far'
+   (function(symbolName) {   
+   
+   })("sym-cloud-yellow-far");
+   //Edge symbol end:'sym-cloud-yellow-far'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-cloud-yellow-near'
+   (function(symbolName) {   
+   
+   })("sym-cloud-yellow-near");
+   //Edge symbol end:'sym-cloud-yellow-near'
+
 })(jQuery, AdobeEdge, "EDGE-96553822");
