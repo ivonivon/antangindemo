@@ -412,7 +412,7 @@
 	"expanded:images/page-1-bg2.png":"nil",
 	"sym-pg1-grass-Default Timeline_playhead_ms":"0",
 	"expanded:images/tund.png":"nil",
-	"pref__general__AutoKeyframePropertiesArmed":"true",
+	"pref__general__AutoKeyframePropertiesArmed":"false",
 	"expanded:images/inverteditem.png":"nil",
 	"expanded:images/sayap1.png":"nil",
 	"usedBOM":"false",
@@ -1992,7 +1992,7 @@
 			"timelineColor2":"0x5a558a",
 			"timelineColor3":"0x4a485e",
 			"timelineColor":"0x63599f",
-			"locked":"true",
+			"locked":"false",
 			"invisible":"false"},
 		"element_${_goo1}":{
 			"timelineColor2":"0x81aa62",
@@ -2191,6 +2191,7 @@
 		"element_${_Menu}":{
 			"timelineColor2":"0x5a558a",
 			"timelineColor3":"0x4a485e",
+			"invisible":"false",
 			"timelineColor":"0x63599f"},
 		"element_${_RoundRectCopy3}":{
 			"timelineColor2":"0x107faa",
@@ -2247,8 +2248,8 @@
 			"timelineColor2":"0x1095d2",
 			"timelineColor3":"0x29647e",
 			"timelineColor":"0x00a9fa"}},
-	"TransitionIdCounter":"9196",
-	"viewStartY":"803",
+	"TransitionIdCounter":"9252",
+	"viewStartY":"2279",
 	"expanded:images/hand2.png":"nil",
 	"sym-GirlHair-Default Timeline_mark_ms":"-1",
 	"sym-know-Default Timeline_playhead_ms":"0",

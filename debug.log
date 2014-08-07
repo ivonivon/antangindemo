@@ -4785,3 +4785,6 @@
     at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js:36:231)
     at Object.EdgeDOM.resumeCanvasOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js:32:274)
     at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js (40)
+[0808/033545:INFO:CONSOLE(1)] "ReferenceError: EdgeDOM is not defined
+    at eval (eval at <anonymous> (about:blank:0:45), <anonymous>:1:7)
+    at about:blank:0:49", source:  (1)
