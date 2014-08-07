@@ -63,5 +63,5 @@ transition:         all 900ms cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
 html {
-    padding-bottom: 1em !important;
+    padding-bottom: 2em !important;
 }
