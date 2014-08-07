@@ -1,3 +1,63 @@
-.cloud-near, .board {
- margin:auto;   
+.ingredients, .house, .board, .letters, .footers, .houses, .page2, .page3, .kids, .grasses, .menus {
+    left:50% !important;
+    margin-left: -400px !important;
+}
+
+.ingredients {
+    margin-left: -388px !important;   
+}
+
+.board {
+    margin-left: -574px !important;   
+}
+
+.letters {
+    margin-left: -542.5px !important;   
+}
+
+.footers {
+    margin-left: -480px !important;   
+}
+
+.houses {
+    margin-left: -549px !important;   
+}
+
+.page2 {
+    margin-left: -342px !important;   
+}
+
+.page3 {
+    margin-left: -630px !important;   
+}
+
+.kids {
+    margin-left: -455px !important;   
+}
+
+.grasses {
+    margin-left: -1720px !important;   
+}
+
+.menus {
+    margin-left: -464px !important;   
+}
+
+.ball {
+    
+}
+
+.cloud-white-near, .cloud-near, .cloud-far, .cloud-yellow, .smoke  {
+-webkit-transition: all 1600ms cubic-bezier(0.215, 0.61, 0.355, 1);
+transition:         all 1600ms cubic-bezier(0.215, 0.61, 0.355, 1);  
+}
+
+.footergrasses {
+-webkit-transition: all 2200ms cubic-bezier(0.215, 0.61, 0.355, 1);
+transition:         all 2200ms cubic-bezier(0.215, 0.61, 0.355, 1);    
+}
+
+.cans {
+-webkit-transition: all 900ms cubic-bezier(0.215, 0.61, 0.355, 1);
+transition:         all 900ms cubic-bezier(0.215, 0.61, 0.355, 1);     
 }
