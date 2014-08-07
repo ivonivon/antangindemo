@@ -387,6 +387,11 @@
 \"Down-level\": {\
    \"timelines\": {\
 \
+   }},\
+\"sym-ball-rotate\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
    }}\
 }",
 	"expanded:images/bz1.png":"nil",
@@ -402,7 +407,7 @@
 	"expanded:images/page-1-bg2.png":"nil",
 	"sym-pg1-grass-Default Timeline_playhead_ms":"0",
 	"expanded:images/tund.png":"nil",
-	"pref__general__AutoKeyframePropertiesArmed":"false",
+	"pref__general__AutoKeyframePropertiesArmed":"true",
 	"expanded:images/inverteditem.png":"nil",
 	"expanded:images/sayap1.png":"nil",
 	"usedBOM":"false",
@@ -988,39 +993,54 @@
 	"expanded:images/boy-roller.png":"nil",
 	"expanded:images/left-root.png":"nil",
 	"symbol_sym-boy-play":{
-		"element_${_BoyBody}":{
-			"timelineColor2":"0xd8b467",
-			"timelineColor3":"0x81714f",
-			"animationEnabled":"false",
-			"timelineColor":"0xffd46d"},
-		"element_${_handCopy4}":{
-			"timelineColor2":"0x81aa62",
-			"animationEnabled":"false",
-			"timelineColor3":"0x5b6c4d",
-			"timelineColor":"0x91c767"},
-		"element_${_ball-play}":{
+		"element_${_handCopy3}":{
 			"timelineColor2":"0xcbbd71",
 			"timelineColor3":"0x7b7652",
-			"animationEnabled":"true",
 			"timelineColor":"0xeedf79"},
-		"element_${_faceBoy}":{
-			"timelineColor2":"0xd35d6e",
-			"timelineColor3":"0x7e4b52",
-			"timelineColor":"0xfb657a"},
 		"element_${_eyesBoy}":{
 			"timelineColor2":"0xba5b89",
 			"timelineColor3":"0x734a5f",
 			"animationEnabled":"true",
 			"timelineColor":"0xdb619d"},
-		"element_${_handCopy3}":{
-			"timelineColor2":"0xcbbd71",
-			"timelineColor3":"0x7b7652",
-			"timelineColor":"0xeedf79"},
 		"element_${_handCopy2}":{
 			"timelineColor2":"0xd8b467",
 			"animationEnabled":"false",
 			"timelineColor3":"0x81714f",
 			"timelineColor":"0xffd46d"},
+		"element_${_body-boy2}":{
+			"timelineColor2":"0xb099ce",
+			"timelineColor3":"0x70657c",
+			"animationEnabled":"false",
+			"timelineColor":"0xceaef4"},
+		"element_${_rightfoot}":{
+			"timelineColor2":"0x5a558a",
+			"timelineColor3":"0x4a485e",
+			"animationEnabled":"true",
+			"timelineColor":"0x63599f"},
+		"element_${_sym-ball-rotate}":{
+			"timelineColor2":"0xd8b467",
+			"timelineColor3":"0x81714f",
+			"animationEnabled":"true",
+			"timelineColor":"0xffd46d"},
+		"element_${_hand2}":{
+			"timelineColor2":"0x168c84",
+			"timelineColor3":"0x2a605c",
+			"animationEnabled":"false",
+			"timelineColor":"0x00a096"},
+		"element_${_handCopy5}":{
+			"timelineColor2":"0x4fa275",
+			"animationEnabled":"false",
+			"timelineColor3":"0x456a55",
+			"timelineColor":"0x50bd82"},
+		"element_${_faceBoy}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"timelineColor":"0xfb657a"},
+		"element_${_ball-play}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"animationEnabled":"false",
+			"timelineColor":"0x50bd82"},
 		"element_${_handCopy}":{
 			"timelineColor2":"0xba5b89",
 			"animationEnabled":"false",
@@ -1037,38 +1057,33 @@
 			"timelineColor":"0xfb657a",
 			"locked":"false",
 			"animationEnabled":"false"},
+		"element_${_sym-ball-rotate2}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"animationEnabled":"true",
+			"timelineColor":"0x91c767"},
 		"element_${_shadow}":{
 			"timelineColor2":"0x1aa38f",
 			"timelineColor3":"0x2a6a61",
 			"animationEnabled":"true",
 			"timelineColor":"0x00bda4"},
-		"element_${_handCopy5}":{
-			"timelineColor2":"0x4fa275",
+		"element_${_BoyBody}":{
+			"timelineColor2":"0xd8b467",
+			"timelineColor3":"0x81714f",
 			"animationEnabled":"false",
-			"timelineColor3":"0x456a55",
-			"timelineColor":"0x50bd82"},
-		"element_${_body-boy2}":{
-			"timelineColor2":"0xb099ce",
-			"timelineColor3":"0x70657c",
-			"animationEnabled":"false",
-			"timelineColor":"0xceaef4"},
-		"element_${_rightfoot}":{
-			"timelineColor2":"0x5a558a",
-			"timelineColor3":"0x4a485e",
-			"animationEnabled":"true",
-			"timelineColor":"0x63599f"},
+			"timelineColor":"0xffd46d"},
 		"element_${_hand}":{
 			"timelineColor2":"0xb099ce",
 			"timelineColor3":"0x70657c",
 			"animationEnabled":"true",
 			"timelineColor":"0xceaef4"},
-		"element_${_hand2}":{
-			"timelineColor2":"0x168c84",
-			"timelineColor3":"0x2a605c",
+		"element_${_handCopy4}":{
+			"timelineColor2":"0x81aa62",
 			"animationEnabled":"false",
-			"timelineColor":"0x00a096"}},
+			"timelineColor3":"0x5b6c4d",
+			"timelineColor":"0x91c767"}},
 	"expanded:images/sun-face.png":"nil",
-	"viewStartMs":"164965.859375",
+	"viewStartMs":"-61.402695790217",
 	"expanded:images/cloud-yellow-2-2.png":"nil",
 	"expanded:images/grass-footer.png":"nil",
 	"sym-boy-sic-Default Timeline_playhead_ms":"0",
@@ -1218,6 +1233,12 @@
 			"timelineColor2":"0x5a558a",
 			"timelineColor3":"0x4a485e",
 			"timelineColor":"0x63599f"}},
+	"symbol_sym-ball-rotate":{
+		"element_${_ball-play}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"animationEnabled":"true",
+			"timelineColor":"0xeedf79"}},
 	"expanded:images/far-cloud3.png":"nil",
 	"expanded:images/smoke.png":"nil",
 	"expanded:images/logo-1.png":"nil",
@@ -1257,7 +1278,7 @@
 			"usingMotionPaths":"true",
 			"scrubbingEnabled":"true"}},
 	"StageZoomFactor":"100",
-	"pixelsPerMs":"0.34086016229541",
+	"pixelsPerMs":"0.081429649556146",
 	"sym-boy-roller-Default Timeline_playhead_ms":"0",
 	"symbol_sym-ing-8":{
 		"element_${_i8}":{
@@ -2192,11 +2213,13 @@
 			"timelineColor2":"0x1095d2",
 			"timelineColor3":"0x29647e",
 			"timelineColor":"0x00a9fa"}},
-	"TransitionIdCounter":"8613",
-	"viewStartY":"0",
+	"TransitionIdCounter":"9026",
+	"viewStartY":"1083",
 	"expanded:images/hand2.png":"nil",
 	"sym-GirlHair-Default Timeline_mark_ms":"-1",
 	"expanded:images/cloud-3-3.png":"nil",
+	"sym-ball-rotate-Default Timeline_mark_ms":"-1",
+	"sym-ball-rotate-Default Timeline_playhead_ms":"0",
 	"symbol_sym-sunlight":{
 		"element_${_sunlight}":{
 			"timelineColor2":"0xba5b89",
@@ -2259,7 +2282,7 @@
 	"sym-crayons-Default Timeline_playhead_ms":"0",
 	"sym-ing-21-Default Timeline_playhead_ms":"0",
 	"sym-cloud-yellow-near-Default Timeline_playhead_ms":"0",
-	"nextElementColorIndex":"13",
+	"nextElementColorIndex":"4",
 	"stage-Default Timeline_playhead_ms":"170000",
 	"symbol_sym-ropeGirl":{
 		"element_${_ropeGirl}":{
