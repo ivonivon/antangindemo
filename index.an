@@ -1976,6 +1976,7 @@
 		"element_${_roller}":{
 			"timelineColor2":"0xd8b467",
 			"timelineColor3":"0x81714f",
+			"invisible":"false",
 			"timelineColor":"0xffd46d"},
 		"element_${_ropeGirl-hair}":{
 			"timelineColor2":"0x168c84",
@@ -2246,8 +2247,8 @@
 			"timelineColor2":"0x1095d2",
 			"timelineColor3":"0x29647e",
 			"timelineColor":"0x00a9fa"}},
-	"TransitionIdCounter":"9112",
-	"viewStartY":"1915",
+	"TransitionIdCounter":"9196",
+	"viewStartY":"803",
 	"expanded:images/hand2.png":"nil",
 	"sym-GirlHair-Default Timeline_mark_ms":"-1",
 	"sym-know-Default Timeline_playhead_ms":"0",
@@ -2317,7 +2318,7 @@
 	"sym-ing-21-Default Timeline_playhead_ms":"0",
 	"sym-cloud-yellow-near-Default Timeline_playhead_ms":"0",
 	"nextElementColorIndex":"9",
-	"stage-Default Timeline_playhead_ms":"170000",
+	"stage-Default Timeline_playhead_ms":"0",
 	"symbol_sym-ropeGirl":{
 		"element_${_ropeGirl}":{
 			"timelineColor2":"0x81aa62",

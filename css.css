@@ -47,7 +47,7 @@
     
 }
 
-.cloud-white-near, .cloud-near, .cloud-far, .cloud-yellow, .smoke  {
+.cloud-white-near, .cloud-near, .cloud-far, .cloud-yellow, .smoke, .rollerBoy  {
 -webkit-transition: all 1600ms cubic-bezier(0.215, 0.61, 0.355, 1);
 transition:         all 1600ms cubic-bezier(0.215, 0.61, 0.355, 1);  
 }
