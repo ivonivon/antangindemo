@@ -34,7 +34,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol: 'sym-baloon'
    (function(symbolName) {   
    
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 2500, function(sym, e) {
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 4598, function(sym, e) {
          sym.play(0);
 
       });
@@ -821,5 +821,19 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    
    })("sym-cloud-yellow-near");
    //Edge symbol end:'sym-cloud-yellow-near'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-ball'
+   (function(symbolName) {   
+   
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 11000, function(sym, e) {
+         sym.play(0);
+
+      });
+      //Edge binding end
+
+   })("sym-ball");
+   //Edge symbol end:'sym-ball'
 
 })(jQuery, AdobeEdge, "EDGE-96553822");
