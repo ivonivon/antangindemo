@@ -1071,7 +1071,7 @@
 			"animationEnabled":"false",
 			"timelineColor":"0x00a096"}},
 	"expanded:images/sun-face.png":"nil",
-	"viewStartMs":"119217.734375",
+	"viewStartMs":"165849.875",
 	"expanded:images/cloud-yellow-2-2.png":"nil",
 	"expanded:images/grass-footer.png":"nil",
 	"sym-boy-sic-Default Timeline_playhead_ms":"0",
@@ -2194,8 +2194,8 @@
 			"timelineColor3":"0x2a6a61",
 			"animationEnabled":"false",
 			"timelineColor":"0x00bda4"}},
-	"TransitionIdCounter":"8527",
-	"viewStartY":"595",
+	"TransitionIdCounter":"8555",
+	"viewStartY":"1259",
 	"expanded:images/hand2.png":"nil",
 	"sym-GirlHair-Default Timeline_mark_ms":"-1",
 	"expanded:images/cloud-3-3.png":"nil",
@@ -2275,7 +2275,7 @@
 	"expanded:images/ball-play.png":"nil",
 	"sym-but-news-Default Timeline_mark_ms":"-1",
 	"nextElementColorIndex":"12",
-	"stage-Default Timeline_playhead_ms":"120752",
+	"stage-Default Timeline_playhead_ms":"170000",
 	"expanded:images/boy-head.png":"nil",
 	"symbol_sym-boy-roller":{
 		"element_${_Ellipse3}":{
