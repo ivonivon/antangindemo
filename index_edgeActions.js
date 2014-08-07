@@ -862,4 +862,24 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    })("sym-ball-rotate");
    //Edge symbol end:'sym-ball-rotate'
 
+   //=========================================================
+   
+   //Edge symbol: 'sym-know'
+   (function(symbolName) {   
+   
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 0, function(sym, e) {
+         sym.play();
+
+      });
+      //Edge binding end
+
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 5000, function(sym, e) {
+         sym.playReverse();
+
+      });
+      //Edge binding end
+
+   })("sym-know");
+   //Edge symbol end:'sym-know'
+
 })(jQuery, AdobeEdge, "EDGE-96553822");
