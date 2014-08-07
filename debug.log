@@ -4365,3 +4365,12 @@
 [0807/232902:INFO:CONSOLE(1)] "ReferenceError: EdgeDOM is not defined
     at eval (eval at <anonymous> (about:blank:0:45), <anonymous>:1:7)
     at about:blank:0:49", source:  (1)
+[0807/233811:INFO:CONSOLE(1)] "ReferenceError: EdgeDOM is not defined
+    at eval (eval at <anonymous> (about:blank:0:45), <anonymous>:1:7)
+    at about:blank:0:49", source:  (1)
+[0807/233846:INFO:CONSOLE(1)] "ReferenceError: EdgeDOM is not defined
+    at eval (eval at <anonymous> (about:blank:0:45), <anonymous>:1:7)
+    at about:blank:0:49", source:  (1)
+[0807/234022:INFO:CONSOLE(1)] "ReferenceError: EdgeDOM is not defined
+    at eval (eval at <anonymous> (about:blank:0:45), <anonymous>:1:7)
+    at about:blank:0:49", source:  (1)
