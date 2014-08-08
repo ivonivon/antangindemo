@@ -139,8 +139,11 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       Symbol.bindElementAction(compId, symbolName, "${_sym-pro-but2}", "click", function(sym, e) {
          sym.$("sym-pro-but2").css("z-index", 100);
          sym.$("sym-pro-but1").css("z-index", 99);
-         sym.$("ubat1").css("z-index", 99);
-         sym.$("ubat2").css("z-index", 1000);
+         sym.$("ubat").css("opacity", 0);
+         sym.$("ubat2").css("opacity", 1);
+         
+         //sym.$("ubat1").css("z-index", 99);
+         //sym.$("ubat2").css("z-index", 1000);
          
 
       });
@@ -155,8 +158,10 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       Symbol.bindElementAction(compId, symbolName, "${_sym-pro-but1}", "click", function(sym, e) {
          sym.$("sym-pro-but1").css("z-index", 100);
          sym.$("sym-pro-but2").css("z-index", 99);
-         sym.$("ubat").css("z-index", 100);
-         sym.$("ubat2").css("z-index", 99);
+         sym.$("ubat").css("opacity", 1);
+         sym.$("ubat2").css("opacity", 0);
+         //sym.$("ubat").css("z-index", 100);
+         //sym.$("ubat2").css("z-index", 99);
          
 
       });
