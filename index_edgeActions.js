@@ -13,12 +13,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    (function(symbolName) {
       
       
-      Symbol.bindElementAction(compId, symbolName, "document", "compositionReady", function(sym, e) {
-         EC.Parallax.setup(sym);
-         
-
-      });
-      //Edge binding end
+      
 
       Symbol.bindElementAction(compId, symbolName, "${_sym-env2}", "mouseover", function(sym, e) {
          // insert code to be run when the mouse hovers over the object
@@ -28,6 +23,22 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 170000, function(sym, e) {
          // insert code here
+      });
+      //Edge binding end
+
+      
+
+      
+
+      Symbol.bindElementAction(compId, symbolName, "document", "compositionReady", function(sym, e) {
+         EC.Parallax.setup(sym);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Stage}", "scroll", function(sym, e) {
+         sym.$("Group4").hide();
+
       });
       //Edge binding end
 
@@ -851,7 +862,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol: 'sym-ball-rotate'
    (function(symbolName) {   
    
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 8750, function(sym, e) {
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 26000, function(sym, e) {
          sym.playReverse();
          
 
@@ -886,5 +897,112 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 
    })("sym-know");
    //Edge symbol end:'sym-know'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym_page3x'
+   (function(symbolName) {   
+   
+      Symbol.bindElementAction(compId, symbolName, "${_il1}", "mouseover", function(sym, e) {
+         sym.$("il1").css("background-color", "#f8981c");
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_il1}", "mouseout", function(sym, e) {
+         var current = sym.getVariable("current");
+         if (!(current == "item1")) {
+         	sym.$("il1").css("background-color", "rgba(255,255,255,0.00");
+         }
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_il1}", "click", function(sym, e) {
+         sym.play();
+         sym.setVariable("current", "item1");
+         sym.$("il1").css("background-color", "#f8981c");
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_il2}", "click", function(sym, e) {
+         sym.play();
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_il2}", "mouseover", function(sym, e) {
+         sym.$("il2").css("background-color", "#f8981c");
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_il2}", "mouseout", function(sym, e) {
+         var current = sym.getVariable("current");
+         if (!(current == "item2")) {
+         	sym.$("il2").css("background-color", "rgba(255,255,255,0.00");
+         }
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_il3}", "click", function(sym, e) {
+         sym.play();
+         
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_il3}", "mouseover", function(sym, e) {
+         sym.$("il3").css("background-color", "#f8981c");
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_il3}", "mouseout", function(sym, e) {
+         var current = sym.getVariable("current");
+         if (!(current == "item3")) {
+         	sym.$("il3").css("background-color", "rgba(255,255,255,0.00");
+         }
+
+      });
+      //Edge binding end
+
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 0, function(sym, e) {
+         sym.stop();
+         sym.$("il1").css("background-color", "#f8981c");
+         sym.$("il2").css("background-color", "rgba(255,255,255,0.00");
+         sym.$("il3").css("background-color", "rgba(255,255,255,0.00");
+         sym.setVariable("current", "item1");
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 127, function(sym, e) {
+         sym.stop();
+         sym.$("il2").css("background-color", "#f8981c");
+         sym.$("il1").css("background-color", "rgba(255,255,255,0.00");
+         sym.$("il3").css("background-color", "rgba(255,255,255,0.00");
+         sym.setVariable("current", "item2");
+
+      });
+      //Edge binding end
+
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 250, function(sym, e) {
+         sym.stop();
+         sym.$("il3").css("background-color", "#f8981c");
+         sym.$("il1").css("background-color", "rgba(255,255,255,0.00");
+         sym.$("il2").css("background-color", "rgba(255,255,255,0.00");
+         sym.setVariable("current", "item3");
+
+      });
+      //Edge binding end
+
+   })("sym_page3x");
+   //Edge symbol end:'sym_page3x'
 
 })(jQuery, AdobeEdge, "EDGE-96553822");
