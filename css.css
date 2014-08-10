@@ -1,4 +1,4 @@
-.ingredients, .house, .board, .letters, .footers, .houses, .page2, .page3, .kids, .grasses, .menus {
+.ingredients, .house, .board, .letters, .footers, .houses, .page2, .page3, .kids, .grasses, .menus, .houseSM {
     left:50% !important;
     margin-left: -400px !important;
 }
@@ -23,6 +23,10 @@
     margin-left: -549px !important;   
 }
 
+.houseSM {
+    margin-left:-500px !important;   
+}
+
 .page2 {
     margin-left: -342px !important;   
 }
@@ -44,22 +48,22 @@
 }
 
 
-.cloud-white-near, .cloud-near, .cloud-far, .cloud-yellow, .smoke, .rollerBoy  {
+.cloud-white-near, .cloud-near, .cloud-far, .cloud-yellow, .smoke, .rollerBoy, .puhun  {
 -webkit-transition: all 1600ms cubic-bezier(0.215, 0.61, 0.355, 1);
 transition:         all 1600ms cubic-bezier(0.215, 0.61, 0.355, 1);  
 }
 
-.footergrasses {
+.footergrasses, .planes, .tund1, .tund2, .tund3, .tund4, .tund5 {
 -webkit-transition: all 2200ms cubic-bezier(0.215, 0.61, 0.355, 1);
 transition:         all 2200ms cubic-bezier(0.215, 0.61, 0.355, 1);    
 }
 
-.cans, .ubat, .ubat2 {
+.cans, .ubat, .ubat2, .fences {
 -webkit-transition: all 900ms cubic-bezier(0.215, 0.61, 0.355, 1);
 transition:         all 900ms cubic-bezier(0.215, 0.61, 0.355, 1);     
 }
 
-.herb-but-1, .herb-but-2, .itemlist, .tund1, .tund2, .tund3, .tund4, .tund5 {
+.herb-but-1, .herb-but-2, .itemlist {
 -webkit-transition: all 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
 transition:         all 300ms cubic-bezier(0.215, 0.61, 0.355, 1);     
 }

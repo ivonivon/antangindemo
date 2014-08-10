@@ -1005,4 +1005,63 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    })("sym_page3x");
    //Edge symbol end:'sym_page3x'
 
+   //=========================================================
+   
+   //Edge symbol: 'sym-tv'
+   (function(symbolName) {   
+   
+   })("sym-tv");
+   //Edge symbol end:'sym-tv'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-houseW'
+   (function(symbolName) {   
+   
+   })("sym-houseW");
+   //Edge symbol end:'sym-houseW'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-info-but'
+   (function(symbolName) {   
+   
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle2}", "mouseover", function(sym, e) {
+         var pos = sym.getPosition();
+         sym.play(pos);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle2}", "mouseout", function(sym, e) {
+         var pos = sym.getPosition();
+         sym.playReverse(pos);
+         
+
+      });
+      //Edge binding end
+
+   })("sym-info-but");
+   //Edge symbol end:'sym-info-but'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-want-know'
+   (function(symbolName) {   
+   
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 6000, function(sym, e) {
+         sym.playReverse();
+
+      });
+      //Edge binding end
+
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 0, function(sym, e) {
+         sym.play();
+
+      });
+      //Edge binding end
+
+   })("sym-want-know");
+   //Edge symbol end:'sym-want-know'
+
 })(jQuery, AdobeEdge, "EDGE-96553822");
