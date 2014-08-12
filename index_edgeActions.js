@@ -42,6 +42,45 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
+      Symbol.bindElementAction(compId, symbolName, "${_sym-but-kids}", "click", function(sym, e) {
+         var element = sym.$("pages5");
+         $('html,body').animate({scrollTop: element.offset().top}, "slow");
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_sym-but-news}", "click", function(sym, e) {
+         var element = sym.$("pages4");
+         $('html,body').animate({scrollTop: element.offset().top}, "slow");
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_sym-but-ing}", "click", function(sym, e) {
+         var element = sym.$("pages3");
+         $('html,body').animate({scrollTop: element.offset().top}, "slow");
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_sym-but-product}", "click", function(sym, e) {
+         var element = sym.$("pages2");
+         $('html,body').animate({scrollTop: element.offset().top}, "slow");
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_sym-but-help}", "click", function(sym, e) {
+         var element = sym.$("pages6");
+         $('html,body').animate({scrollTop: element.offset().top}, "slow");
+         
+
+      });
+      //Edge binding end
+
    })("stage");
    //Edge symbol end:'stage'
 
@@ -1063,5 +1102,43 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 
    })("sym-want-know");
    //Edge symbol end:'sym-want-know'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-back-top'
+   (function(symbolName) {   
+   
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 0, function(sym, e) {
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle5}", "click", function(sym, e) {
+         var element = sym.$("pages1");
+         $('html,body').animate({scrollTop: element.offset().top}, "slow");
+         
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle5}", "mouseover", function(sym, e) {
+         var pos = sym.getPosition();
+         sym.play(pos);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle5}", "mouseout", function(sym, e) {
+         var pos = sym.getPosition();
+         sym.playReverse(pos);
+         
+
+      });
+      //Edge binding end
+
+   })("sym-back-top");
+   //Edge symbol end:'sym-back-top'
 
 })(jQuery, AdobeEdge, "EDGE-96553822");
