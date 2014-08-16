@@ -35,17 +35,13 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
          
          sym.$("body").append(sym.$("sym-back-to").css({"position":"fixed", "top" : "94%"}));
          
-         
-         //sym.$("pic").css({ "background": "url(images/toy-A.jpg) no-repeat","opacity" : "0.6"});
+         sym.$("html").niceScroll();
+         //$("#divexample2").niceScroll("#Stage",{cursorcolor:"#0F0",boxzoom:true});
 
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_Stage}", "scroll", function(sym, e) {
-         sym.$("Group4").hide();
-
-      });
-      //Edge binding end
+      
 
       Symbol.bindElementAction(compId, symbolName, "${_sym-but-kids}", "click", function(sym, e) {
          var element = sym.$("pages5");
