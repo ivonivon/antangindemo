@@ -1091,6 +1091,49 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol: 'sym-houseW'
    (function(symbolName) {   
    
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle4}", "mouseover", function(sym, e) {
+         var pos = sym.getSymbol("sym-tv-left").getPosition();
+         sym.getSymbol("sym-tv-left").play(pos);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle4}", "mouseout", function(sym, e) {
+         var pos = sym.getSymbol("sym-tv-left").getPosition();
+         sym.getSymbol("sym-tv-left").playReverse(pos);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle4Copy}", "mouseover", function(sym, e) {
+         var pos = sym.getSymbol("sym-tv-right").getPosition();
+         sym.getSymbol("sym-tv-right").play(pos);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle4Copy}", "mouseout", function(sym, e) {
+         var pos = sym.getSymbol("sym-tv-right").getPosition();
+         sym.getSymbol("sym-tv-right").playReverse(pos);
+         
+         
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle4Copy}", "click", function(sym, e) {
+         sym.getSymbol("sym-event-placeholder").play();
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle4}", "click", function(sym, e) {
+         sym.getSymbol("sym-event-placeholder").playReverse();
+
+      });
+      //Edge binding end
+
    })("sym-houseW");
    //Edge symbol end:'sym-houseW'
 
@@ -1235,5 +1278,89 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 
    })("sym-busa");
    //Edge symbol end:'sym-busa'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-tv-left'
+   (function(symbolName) {   
+   
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle8}", "mouseover", function(sym, e) {
+         var pos = sym.getPosition();
+         sym.play(pos);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle8}", "mouseout", function(sym, e) {
+         var pos = sym.getPosition();
+         sym.playReverse(pos);
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle8}", "click", function(sym, e) {
+         sym.playReverse();
+
+      });
+      //Edge binding end
+
+   })("sym-tv-left");
+   //Edge symbol end:'sym-tv-left'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-tv-right'
+   (function(symbolName) {   
+   
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle5}", "mouseover", function(sym, e) {
+         var pos = sym.getPosition();
+         sym.play(pos);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle5}", "mouseout", function(sym, e) {
+         var pos = sym.getPosition();
+         sym.playReverse(pos);
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle5}", "click", function(sym, e) {
+         sym.play();
+
+      });
+      //Edge binding end
+
+   })("sym-tv-right");
+   //Edge symbol end:'sym-tv-right'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-event-placeholder'
+   (function(symbolName) {   
+   
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 750, function(sym, e) {
+         sym.stop();
+
+      });
+      //Edge binding end
+
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 250, function(sym, e) {
+         sym.stop();
+
+      });
+      //Edge binding end
+
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 500, function(sym, e) {
+         sym.stop();
+
+      });
+      //Edge binding end
+
+   })("sym-event-placeholder");
+   //Edge symbol end:'sym-event-placeholder'
 
 })(jQuery, AdobeEdge, "EDGE-96553822");
