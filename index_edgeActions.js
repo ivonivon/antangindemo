@@ -32,6 +32,11 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 
       Symbol.bindElementAction(compId, symbolName, "document", "compositionReady", function(sym, e) {
          EC.Parallax.setup(sym);
+         
+         sym.$("body").append(sym.$("sym-back-to").css({"position":"fixed", "top" : "94%"}));
+         
+         
+         //sym.$("pic").css({ "background": "url(images/toy-A.jpg) no-repeat","opacity" : "0.6"});
 
       });
       //Edge binding end
@@ -76,6 +81,15 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       Symbol.bindElementAction(compId, symbolName, "${_sym-but-help}", "click", function(sym, e) {
          var element = sym.$("pages6");
          $('html,body').animate({scrollTop: element.offset().top}, "slow");
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_sym-back-to}", "click", function(sym, e) {
+         var element = sym.$("pages1");
+         $('html,body').animate({scrollTop: element.offset().top}, "slow");
+         
          
 
       });
@@ -959,15 +973,48 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_il1}", "click", function(sym, e) {
-         sym.play();
+         /*sym.$("il2").css("background-color", "rgba(255,255,255,0.00");
+         sym.$("il3").css("background-color", "rgba(255,255,255,0.00");
+         
          sym.setVariable("current", "item1");
          sym.$("il1").css("background-color", "#f8981c");
+         
+         sym.$("sym-khasiat-1").css("opacity", 1);
+         sym.$("sym-khasiat-2").css("opacity", 0);
+         sym.$("sym-khasiat-3").css("opacity", 0);
+         
+         var current = sym.getVariable("current");
+         if (!(current == "item1")) {
+         	sym.play();
+         }*/
+         
+         sym.setVariable("current", "item1");
+         sym.$("il2").css("background-color", "rgba(255,255,255,0.00");
+         sym.$("il3").css("background-color", "rgba(255,255,255,0.00");
+         sym.$("sym-khasiat-1").css("opacity", 1);
+         sym.$("sym-khasiat-2").css("opacity", 0);
+         sym.$("sym-khasiat-3").css("opacity", 0);
+         
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_il2}", "click", function(sym, e) {
-         sym.play();
+         /*sym.play();
+         
+         sym.$("sym-khasiat-1").css("opacity", 0);
+         sym.$("sym-khasiat-2").css("opacity", 1);
+         sym.$("sym-khasiat-3").css("opacity", 0);
+         */
+         
+         sym.setVariable("current", "item2");
+         sym.$("il1").css("background-color", "rgba(255,255,255,0.00");
+         sym.$("il3").css("background-color", "rgba(255,255,255,0.00");
+         sym.$("sym-khasiat-1").css("opacity", 0);
+         sym.$("sym-khasiat-2").css("opacity", 1);
+         sym.$("sym-khasiat-3").css("opacity", 0);
+         
+         sym.getSymbol("sym-khasiat-2").play();
 
       });
       //Edge binding end
@@ -988,9 +1035,19 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_il3}", "click", function(sym, e) {
-         sym.play();
+         /*sym.play();
          
+         sym.$("sym-khasiat-1").css("opacity", 0);
+         sym.$("sym-khasiat-2").css("opacity", 0);
+         sym.$("sym-khasiat-3").css("opacity", 1);
+         */
          
+         sym.setVariable("current", "item3");
+         sym.$("il2").css("background-color", "rgba(255,255,255,0.00");
+         sym.$("il1").css("background-color", "rgba(255,255,255,0.00");
+         sym.$("sym-khasiat-1").css("opacity", 0);
+         sym.$("sym-khasiat-2").css("opacity", 0);
+         sym.$("sym-khasiat-3").css("opacity", 1);
 
       });
       //Edge binding end
@@ -1010,33 +1067,54 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
+      
+
+      
+
+      
+
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 0, function(sym, e) {
-         sym.stop();
-         sym.$("il1").css("background-color", "#f8981c");
-         sym.$("il2").css("background-color", "rgba(255,255,255,0.00");
-         sym.$("il3").css("background-color", "rgba(255,255,255,0.00");
          sym.setVariable("current", "item1");
-         
 
       });
       //Edge binding end
 
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 127, function(sym, e) {
-         sym.stop();
-         sym.$("il2").css("background-color", "#f8981c");
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle3}", "swiperight", function(sym, e) {
+         /*
+         //#il1
+         sym.setVariable("current", "item1");
+         sym.$("il2").css("background-color", "rgba(255,255,255,0.00");
+         sym.$("il3").css("background-color", "rgba(255,255,255,0.00");
+         sym.$("sym-khasiat-1").css("opacity", 1);
+         sym.$("sym-khasiat-2").css("opacity", 0);
+         sym.$("sym-khasiat-3").css("opacity", 0);
+         
+         
+         //#il2
+         sym.setVariable("current", "item2");
          sym.$("il1").css("background-color", "rgba(255,255,255,0.00");
          sym.$("il3").css("background-color", "rgba(255,255,255,0.00");
-         sym.setVariable("current", "item2");
-
-      });
-      //Edge binding end
-
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 250, function(sym, e) {
-         sym.stop();
-         sym.$("il3").css("background-color", "#f8981c");
-         sym.$("il1").css("background-color", "rgba(255,255,255,0.00");
-         sym.$("il2").css("background-color", "rgba(255,255,255,0.00");
+         sym.$("sym-khasiat-1").css("opacity", 0);
+         sym.$("sym-khasiat-2").css("opacity", 1);
+         sym.$("sym-khasiat-3").css("opacity", 0);
+         sym.getSymbol("sym-khasiat-2").play();
+         
+         //#il3
          sym.setVariable("current", "item3");
+         sym.$("il2").css("background-color", "rgba(255,255,255,0.00");
+         sym.$("il1").css("background-color", "rgba(255,255,255,0.00");
+         sym.$("sym-khasiat-1").css("opacity", 0);
+         sym.$("sym-khasiat-2").css("opacity", 0);
+         sym.$("sym-khasiat-3").css("opacity", 1);
+         */
+         
+         sym.setVariable("current", "item2");
+         sym.$("il1").css("background-color", "rgba(255,255,255,0.00");
+         sym.$("il3").css("background-color", "rgba(255,255,255,0.00");
+         sym.$("sym-khasiat-1").css("opacity", 0);
+         sym.$("sym-khasiat-2").css("opacity", 1);
+         sym.$("sym-khasiat-3").css("opacity", 0);
+         sym.getSymbol("sym-khasiat-2").play();
 
       });
       //Edge binding end
@@ -1140,5 +1218,66 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 
    })("sym-back-top");
    //Edge symbol end:'sym-back-top'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-khasiat-1'
+   (function(symbolName) {   
+   
+   })("sym-khasiat-1");
+   //Edge symbol end:'sym-khasiat-1'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-khasiat-2'
+   (function(symbolName) {   
+   
+   })("sym-khasiat-2");
+   //Edge symbol end:'sym-khasiat-2'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-khasiat-3'
+   (function(symbolName) {   
+   
+   })("sym-khasiat-3");
+   //Edge symbol end:'sym-khasiat-3'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-back-to'
+   (function(symbolName) {   
+   
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle3}", "mouseover", function(sym, e) {
+         var pos = sym.getPosition();
+         sym.play(pos);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle3}", "mouseout", function(sym, e) {
+         var pos = sym.getPosition();
+         sym.playReverse(pos);
+         
+
+      });
+      //Edge binding end
+
+   })("sym-back-to");
+   //Edge symbol end:'sym-back-to'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-busa'
+   (function(symbolName) {   
+   
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 5000, function(sym, e) {
+         sym.play(0);
+
+      });
+      //Edge binding end
+
+   })("sym-busa");
+   //Edge symbol end:'sym-busa'
 
 })(jQuery, AdobeEdge, "EDGE-96553822");

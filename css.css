@@ -48,7 +48,7 @@
 }
 
 
-.cloud-white-near, .cloud-near, .cloud-far, .cloud-yellow, .smoke, .rollerBoy, .puhun  {
+.cloud-white-near, .cloud-near, .cloud-far, .cloud-yellow, .smoke, .rollerBoy, .puhun, .homeBut  {
 -webkit-transition: all 1600ms cubic-bezier(0.215, 0.61, 0.355, 1);
 transition:         all 1600ms cubic-bezier(0.215, 0.61, 0.355, 1);  
 }
@@ -58,7 +58,7 @@ transition:         all 1600ms cubic-bezier(0.215, 0.61, 0.355, 1);
 transition:         all 2200ms cubic-bezier(0.215, 0.61, 0.355, 1);    
 }
 
-.cans, .ubat, .ubat2, .fences {
+.cans, .ubat, .ubat2, .fences, .sym-khasiat-1, .sym-khasiat-2, .sym-khasiat-3 {
 -webkit-transition: all 900ms cubic-bezier(0.215, 0.61, 0.355, 1);
 transition:         all 900ms cubic-bezier(0.215, 0.61, 0.355, 1);     
 }
