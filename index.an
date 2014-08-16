@@ -1119,6 +1119,7 @@
 		"element_${_Rectangle3}":{
 			"timelineColor2":"0x107faa",
 			"timelineColor3":"0x295a6d",
+			"animationEnabled":"false",
 			"timelineColor":"0x008dc8"},
 		"element_${_EllipseCopy2}":{
 			"timelineColor2":"0x1095d2",
@@ -3124,9 +3125,9 @@
 			"timelineColor2":"0xb099ce",
 			"timelineColor3":"0x70657c",
 			"timelineColor":"0xceaef4"}},
-	"TransitionIdCounter":"18813",
+	"TransitionIdCounter":"18897",
 	"sym-khasiat-3-Default Timeline_playhead_ms":"0",
-	"viewStartY":"918",
+	"viewStartY":"138",
 	"expanded:images/plane.png":"nil",
 	"expanded:images/yellow-cloud2.png":"nil",
 	"expanded:images/BoyBody.png":"nil",

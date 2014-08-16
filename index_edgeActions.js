@@ -1075,46 +1075,6 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_Rectangle3}", "swiperight", function(sym, e) {
-         /*
-         //#il1
-         sym.setVariable("current", "item1");
-         sym.$("il2").css("background-color", "rgba(255,255,255,0.00");
-         sym.$("il3").css("background-color", "rgba(255,255,255,0.00");
-         sym.$("sym-khasiat-1").css("opacity", 1);
-         sym.$("sym-khasiat-2").css("opacity", 0);
-         sym.$("sym-khasiat-3").css("opacity", 0);
-         
-         
-         //#il2
-         sym.setVariable("current", "item2");
-         sym.$("il1").css("background-color", "rgba(255,255,255,0.00");
-         sym.$("il3").css("background-color", "rgba(255,255,255,0.00");
-         sym.$("sym-khasiat-1").css("opacity", 0);
-         sym.$("sym-khasiat-2").css("opacity", 1);
-         sym.$("sym-khasiat-3").css("opacity", 0);
-         sym.getSymbol("sym-khasiat-2").play();
-         
-         //#il3
-         sym.setVariable("current", "item3");
-         sym.$("il2").css("background-color", "rgba(255,255,255,0.00");
-         sym.$("il1").css("background-color", "rgba(255,255,255,0.00");
-         sym.$("sym-khasiat-1").css("opacity", 0);
-         sym.$("sym-khasiat-2").css("opacity", 0);
-         sym.$("sym-khasiat-3").css("opacity", 1);
-         */
-         
-         sym.setVariable("current", "item2");
-         sym.$("il1").css("background-color", "rgba(255,255,255,0.00");
-         sym.$("il3").css("background-color", "rgba(255,255,255,0.00");
-         sym.$("sym-khasiat-1").css("opacity", 0);
-         sym.$("sym-khasiat-2").css("opacity", 1);
-         sym.$("sym-khasiat-3").css("opacity", 0);
-         sym.getSymbol("sym-khasiat-2").play();
-
-      });
-      //Edge binding end
-
    })("sym_page3x");
    //Edge symbol end:'sym_page3x'
 
