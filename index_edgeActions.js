@@ -1129,7 +1129,32 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_Rectangle4}", "click", function(sym, e) {
+         var pos = sym.getSymbol("sym-event-placeholder").getPosition();
+         if (pos == 0) {
+         	sym.getSymbol("sym-event-placeholder").playReverse("end");
+         } else {
          sym.getSymbol("sym-event-placeholder").playReverse();
+         }
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_sym-tv-right}", "click", function(sym, e) {
+         
+         	sym.getSymbol("sym-event-placeholder").play();
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_sym-tv-left}", "click", function(sym, e) {
+         var pos = sym.getSymbol("sym-event-placeholder").getPosition();
+         if (pos == 0) {
+         	sym.getSymbol("sym-event-placeholder").playReverse("end");
+         } else {
+         sym.getSymbol("sym-event-placeholder").playReverse();
+         }
+         
 
       });
       //Edge binding end
@@ -1343,7 +1368,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    (function(symbolName) {   
    
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 750, function(sym, e) {
-         sym.stop();
+         sym.stop(0);
 
       });
       //Edge binding end
@@ -1355,6 +1380,12 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       //Edge binding end
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 500, function(sym, e) {
+         sym.stop();
+
+      });
+      //Edge binding end
+
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 0, function(sym, e) {
          sym.stop();
 
       });

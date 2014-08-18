@@ -1,10 +1,10 @@
-.ingredients, .house, .board, .letters, .footers, .houses, .page2, .page3, .kids, .grasses, .menus, .houseSM {
+.page4, .house, .board, .letters, .footers, .houses, .page2, .page3, .kids, .grasses, .menus, .houseSM {
     left:50% !important;
     margin-left: -400px !important;
 }
 
-.ingredients {
-    margin-left: -388px !important;   
+.page4 {
+    margin-left: -387px !important;   
 }
 
 .board {

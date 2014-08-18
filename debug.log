@@ -21131,3 +21131,125 @@
     at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/edge.authoring.4.0.0.min.js:47:259)
     at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/edge.authoring.4.0.0.min.js:111:40)
     at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js (40)
+[0817/142551:ERROR:gpu_info_collector_win.cc(91)] Can't retrieve a valid WinSAT assessment.
+[0817/142553:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0817/142603:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0818/015517:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0818/015525:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0818/181112:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0818/181133:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/edge.authoring.4.0.0.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js (40)
+[0818/181133:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/edge.authoring.4.0.0.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js (40)
+[0818/181133:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/edge.authoring.4.0.0.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/edge.authoring.4.0.0.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js (40)
+[0818/181133:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js:36:231)
+    at Object.EdgeDOM.resumeCanvasOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js:32:274)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js (40)
+[0818/181317:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0818/181317:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/edge.authoring.4.0.0.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/edge.authoring.4.0.0.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js (40)
+[0818/182058:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/edge.authoring.4.0.0.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/edge.authoring.4.0.0.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js (40)
+[0818/182145:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/edge.authoring.4.0.0.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/edge.authoring.4.0.0.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js (40)
+[0818/182338:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/edge.authoring.4.0.0.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js (40)
+[0818/182338:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js:36:231)
+    at EdgeDOM.onScroll (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/edge.authoring.4.0.0.min.js:82:62)
+    at x.event.dispatch (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/jquery-2.0.3.min.js:5:10006)
+    at y.handle (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/jquery-2.0.3.min.js:5:6789)", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js (40)
+[0818/182339:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/edge.authoring.4.0.0.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/edge.authoring.4.0.0.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js (40)
+[0818/182339:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js:36:231)
+    at Object.EdgeDOM.resumeCanvasOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js:32:274)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js (40)
+[0818/182633:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/edge.authoring.4.0.0.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/edge.authoring.4.0.0.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js (40)
+[0818/182825:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/edge.authoring.4.0.0.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/edge.authoring.4.0.0.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js (40)
+[0818/183725:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/edge.authoring.4.0.0.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/edge.authoring.4.0.0.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js (40)
+[0818/183909:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/edge.authoring.4.0.0.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/edge.authoring.4.0.0.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js (40)
+[0818/184314:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/edge.authoring.4.0.0.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/edge.authoring.4.0.0.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js (40)
+[0818/184315:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js:36:231)
+    at Object.EdgeDOM.resumeCanvasOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js:32:274)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js (40)
+[0818/184315:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/edge.authoring.4.0.0.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/edge.authoring.4.0.0.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js (40)
+[0818/184315:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js:36:231)
+    at Object.EdgeDOM.resumeCanvasOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js:32:274)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js (40)
+[0818/185345:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/edge.authoring.4.0.0.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/edge.authoring.4.0.0.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js (40)
+[0818/185346:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js:36:231)
+    at Object.EdgeDOM.resumeCanvasOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js:32:274)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js (40)
+[0818/185346:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js:36:231)
+    at d.Symbol.seekInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/edge.authoring.4.0.0.min.js:47:259)
+    at Object.EdgeDOM.seekInSymbolInTool (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/edge.authoring.4.0.0.min.js:111:40)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js (40)
+[0818/185346:INFO:CONSOLE(40)] "TypeError: Cannot read property 'style' of undefined
+    at Object.EdgeDOM.updateOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js:36:231)
+    at Object.EdgeDOM.resumeCanvasOverlay (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js:32:274)
+    at about:blank:0:15", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/fielans/Documents/GitHub/antangindemo/edge_includes/an.canvas.overlay.min.js (40)
+[0818/190453:INFO:CONSOLE(1)] "ReferenceError: EdgeDOM is not defined
+    at eval (eval at <anonymous> (about:blank:0:47), <anonymous>:1:7)
+    at about:blank:0:47", source:  (1)
+[0818/191156:INFO:CONSOLE(1)] "ReferenceError: EdgeDOM is not defined
+    at eval (eval at <anonymous> (about:blank:0:47), <anonymous>:1:7)
+    at about:blank:0:47", source:  (1)
