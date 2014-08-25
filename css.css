@@ -53,7 +53,7 @@
 transition:         all 1600ms cubic-bezier(0.215, 0.61, 0.355, 1);  
 }
 
-.footergrasses, .planes, .tund1, .tund2, .tund3, .tund4, .tund5 {
+.footergrasses, .planes, .tund1, .tund2, .tund3, .tund4, .tund5, .jeep {
 -webkit-transition: all 2200ms cubic-bezier(0.215, 0.61, 0.355, 1);
 transition:         all 2200ms cubic-bezier(0.215, 0.61, 0.355, 1);    
 }
