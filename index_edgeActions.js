@@ -91,6 +91,90 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
+      Symbol.bindElementAction(compId, symbolName, "${_en2}", "click", function(sym, e) {
+         // Change the text in an element [English]
+         // Page1 
+         sym.$("P_P1_A1").html("Masuk angin is often called the symptoms of stomach, fever, headache, and cold sweat.");
+         sym.$("T_P1_A1").html("What is masuk angin?");
+         sym.$("P_P1_A2").html("The fever and cold body condition is often followed by indigestion problem, which is acondition when you have an gastric indigestion.");
+         sym.$("T_P1_A2").html("What are the symptoms?");
+         sym.getSymbol("sym-know").$("Do_You").html("Do You");
+         sym.getSymbol("sym-know").$("Know").html("Know?");
+         
+         // Page2-1
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-1").$("T_P2_A1").html("Properties and usage:");
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-1").$("P_P2_A1").html(" • Helps reduce cold, flatulence, nausea and vomit.<br />• Helps soothe throat<br />• Helps prevent travel sickness<br />• Helps improve immunity<br />• Helps maintain health and warms the body");
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-1").$("T_P2_A2").html("Dosage and usage directions:");
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-1").$("P_P2_A2").html("Take 3 times daily after meals until the condition improved<br />• For children aged 1 year : 1/2 sachet<br />• For children aged 2-6 year : 1 sachet.");
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-1").$("T_P2_A3").html("Honey");
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-1").$("T_P2_A4").html("Mint");
+         // Page2-3
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-3").$("T_P23").html("RESEARCH & DEVELOPMENT");
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-3").$("T_P23_A1").html("Pilot Plant");
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-3").$("P_P23_A1").html("Our Pilot Plant offers ways to stimulate a continuous extraction process and preliminary measurement standards that include temperature, defoliation requirements, and production (in terms of time and cost).");
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-3").$("T_P23_A2").html("Laboratory");
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-3").$("P_P23_A2").html("Deltomed laboratory owns a comprehensive equipment used to support the performance of micro extraction, quality control technique as well as the research and development.");
+         
+         // Page3 / Ingredients
+         sym.$("T_P3").html("INGREDIENTS");
+         sym.$("P_P3_A1-2").html("To heal nausea & gastric indigestion and alleviate blood circulation.");
+         sym.$("P_P3_A2-2").html("Increase the body's stamina.");
+         sym.$("P_P3_A3-2").html("To help reducing gastric digestion, as in expelling the gas.");
+         sym.$("P_P3_A4-2").html("Analgesic & antipyretic and to relief gastric digestion.");
+         sym.$("P_P3_A5-2").html("Raise the stamina, increase the body’s immune, and accelerating the regeneration of a cell.");
+         sym.$("P_P3_A6-2").html("Hepatoprotektor and increase appetite.");
+         sym.$("P_P3_A7-2").html("Give warmth to body and reduce nausea & headache.");
+         sym.$("P_P3_A8-2").html("Increase the body endurance, and against infection especially in the case of the common cold and ISPA.");
+         
+         // Page5 / Contact
+         sym.$("T_P5").html("NEED HELP?");
+         sym.$("T_P5_A2").html("— PLANT —");
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_id2}", "click", function(sym, e) {
+         // Change the text in an element [Bahasa]
+         // Page1
+         sym.$("P_P1_A1").html("Masuk angin sering disebut gejala perut kembung, meriang, kepala pusing dan keluar keringat dingin.");
+         sym.$("T_P1_A1").html("Apa sih masuk angin?");
+         sym.$("P_P1_A2").html("Meriang dan rasa dingin dalam tubuh ini sering diikuti gangguan saluran pencernaan, yaitu perut terasa kembung.");
+         sym.$("T_P1_A2").html("Apa gejala masuk angin?");
+         sym.getSymbol("sym-know").$("Do_You").html("Apakah Kamu");
+         sym.getSymbol("sym-know").$("Know").html("Tahu?");
+         
+         // Page2-1
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-1").$("T_P2_A1").html("Khasiat dan kegunaan:");
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-1").$("P_P2_A1").html("• Membantu meredakan masuk angin, perut kembung, mual dan muntah<br />• Membantu melegakan tenggorokan<br />• Membantu mencegah mabuk perjalanan<br />• Membantu meningkatkan daya tahan tubuh<br />• Membantu memelihara kesehatan dan menghangatkan badan");
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-1").$("T_P2_A2").html("Dosis dan cara pemakaian:");
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-1").$("P_P2_A2").html("Minum 3 kali sehari, sesudah makan sampai membaik<br />• Untuk anak 1 tahun : 1/2 sachet<br />• Untuk anak 2-6 tahun : 1 sachet");
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-1").$("T_P2_A3").html("Madu");
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-1").$("T_P2_A4").html("Meniran");
+         // Page2-3
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-3").$("T_P23").html("PENELITIAN & PENGEMBANGAN");
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-3").$("T_P23_A1").html("Pilot Plant");
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-3").$("P_P23_A1").html("Pilot Plant kami menyediakan cara untuk menstimulasi proses ekstraksi secara berkelanjutan dan proses penentuan pengukuran awal yang mencakup temperatur, persyaratan pengguguran, hasil panen, dan produksi dari segi waktu dan biaya.");
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-3").$("T_P23_A2").html("Laboratorium");
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-3").$("P_P23_A2").html("Laboratorium Deltomed memiliki peralatan yang sangat lengkap untuk mendukung kinerja ekstraksi mikro, teknik pengendalian mutu, serta penelitian dan pengembangan.");
+         
+         // Page3 / Ingredients
+         sym.$("T_P3").html("KOMPOSISI");
+         sym.$("P_P3_A1-2").html("Mengatasi mual & kembung dan melancarkan peredaran darah.");
+         sym.$("P_P3_A2-2").html("Meningkatkan daya tahan tubuh.");
+         sym.$("P_P3_A3-2").html("Meredakan kembung dan melegakan pernapasan.");
+         sym.$("P_P3_A4-2").html("Analgesik & antipiretik dan anti kembung.");
+         sym.$("P_P3_A5-2").html("Meningkatkan stamina, meningkatkan daya tahan tubuh, dan mempercepat regenerasi sel.");
+         sym.$("P_P3_A6-2").html("Hepatoprotektor dan meningkatkan nafsu makan.");
+         sym.$("P_P3_A7-2").html("Menghangatkan badan dan meredakan mual & pusing.");
+         sym.$("P_P3_A8-2").html("Meningkatkan daya tahan tubuh dan melawan infeksi, khususnya pada kasus common cold dan ISPA.");
+         
+         // Page5 / Contact
+         sym.$("T_P5").html("BANTUAN?");
+         sym.$("T_P5_A2").html("— PABRIK —");
+
+      });
+      //Edge binding end
+
    })("stage");
    //Edge symbol end:'stage'
 
@@ -1154,6 +1238,16 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
          } else {
          sym.getSymbol("sym-event-placeholder").playReverse();
          }
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_sym-info-but}", "click", function(sym, e) {
+         // insert code for mouse click here
+         // Navigate to a new URL in a new window
+         // (replace "_blank" with appropriate target attribute)
+         window.open("http://www.youtube.com/watch?v=JYJbI0Q-OdM", "_blank");
          
 
       });
