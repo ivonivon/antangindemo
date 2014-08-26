@@ -1675,7 +1675,7 @@
 			"timelineColor3":"0x7b7652",
 			"locked":"false",
 			"timelineColor":"0xeedf79"}},
-	"viewStartMs":"-8.2462532649694",
+	"viewStartMs":"-429.32525354618",
 	"expanded:images/secondLeaf2.png":"nil",
 	"expanded:images/flowers2.png":"nil",
 	"symbol_sym-know":{
@@ -3423,7 +3423,7 @@
 			"usingMotionPaths":"true",
 			"scrubbingEnabled":"true"}},
 	"StageZoomFactor":"125",
-	"pixelsPerMs":"0.60633597336142",
+	"pixelsPerMs":"0.011646181906695",
 	"sym-girl-educated-Default Timeline_playhead_ms":"0",
 	"sym-boy-roller-Default Timeline_playhead_ms":"0",
 	"symbol_sym-ing-8":{
@@ -3525,7 +3525,7 @@
 			"timelineColor3":"0x4a485e",
 			"animationEnabled":"false",
 			"timelineColor":"0x63599f"}},
-	"TransitionIdCounter":"24375",
+	"TransitionIdCounter":"24403",
 	"symbol_sym-but-help":{
 		"element_${_text-ingredientsCopy3}":{
 			"timelineColor2":"0xcbbd71",
@@ -3536,7 +3536,7 @@
 			"timelineColor2":"0x168c84",
 			"timelineColor3":"0x2a605c",
 			"timelineColor":"0x00a096"}},
-	"viewStartY":"2168",
+	"viewStartY":"3176",
 	"expanded:images/hand2.png":"nil",
 	"symbol_sym-ing-2":{
 		"element_${_i2-1}":{
