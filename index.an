@@ -565,7 +565,7 @@
 	"expanded:images/page-1-bg2.png":"nil",
 	"sym-pg1-grass-Default Timeline_playhead_ms":"0",
 	"expanded:images/hoolaa.png":"nil",
-	"pref__general__AutoKeyframePropertiesArmed":"true",
+	"pref__general__AutoKeyframePropertiesArmed":"false",
 	"sym-back-to-Default Timeline_playhead_ms":"0",
 	"expanded:images/pohon.png":"nil",
 	"expanded:images/sayap1.png":"nil",
@@ -1613,6 +1613,7 @@
 	"expanded:images/ropeGirl-hair.png":"nil",
 	"expanded:images/tv_inside2.png":"nil",
 	"expanded:images/delto.gif":"nil",
+	"expanded:images/antanGinflag2.png":"nil",
 	"expanded:images/crayon-2.png":"nil",
 	"CompZoomFactor":"100",
 	"expanded:images/event-022.jpg":"nil",
@@ -2628,7 +2629,7 @@
 		"element_${_sym-logo}":{
 			"timelineColor2":"0x1095d2",
 			"timelineColor3":"0x29647e",
-			"animationEnabled":"true",
+			"animationEnabled":"false",
 			"timelineColor":"0x00a9fa"},
 		"defaultStageParentWidth":"1200px",
 		"element_${_Group6}":{
@@ -2731,6 +2732,11 @@
 			"timelineColor3":"0x734a5f",
 			"animationEnabled":"false",
 			"timelineColor":"0xdb619d"},
+		"element_${_crayon-5}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"animationEnabled":"false",
+			"timelineColor":"0xeedf79"},
 		"element_${_en22}":{
 			"timelineColor2":"0x81aa62",
 			"timelineColor3":"0x5b6c4d",
@@ -2919,11 +2925,10 @@
 			"timelineColor3":"0x4a485e",
 			"animationEnabled":"true",
 			"timelineColor":"0x63599f"},
-		"element_${_crayon-5}":{
-			"timelineColor2":"0xcbbd71",
-			"timelineColor3":"0x7b7652",
-			"animationEnabled":"false",
-			"timelineColor":"0xeedf79"},
+		"element_${_antanGinflag2}":{
+			"timelineColor2":"0x168c84",
+			"timelineColor3":"0x2a605c",
+			"timelineColor":"0x00a096"},
 		"element_${_pohonSmallCopy11}":{
 			"timelineColor2":"0xd8b467",
 			"timelineColor3":"0x81714f",
@@ -3476,7 +3481,7 @@
 			"timelineColor3":"0x4a485e",
 			"animationEnabled":"false",
 			"timelineColor":"0x63599f"}},
-	"TransitionIdCounter":"23922",
+	"TransitionIdCounter":"24006",
 	"symbol_sym-but-help":{
 		"element_${_text-ingredientsCopy3}":{
 			"timelineColor2":"0xcbbd71",
@@ -3487,7 +3492,7 @@
 			"timelineColor2":"0x168c84",
 			"timelineColor3":"0x2a605c",
 			"timelineColor":"0x00a096"}},
-	"viewStartY":"3136",
+	"viewStartY":"0",
 	"expanded:images/hand2.png":"nil",
 	"symbol_sym-ing-2":{
 		"element_${_i2-1}":{
@@ -3628,7 +3633,7 @@
 			"timelineColor2":"0x326a96",
 			"timelineColor3":"0x385063",
 			"timelineColor":"0x2f73ad"}},
-	"nextElementColorIndex":"5",
+	"nextElementColorIndex":"6",
 	"symbol_sym-info-but":{
 		"element_${_Ellipse3}":{
 			"timelineColor2":"0x4fa275",
