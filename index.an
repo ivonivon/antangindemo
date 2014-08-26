@@ -3525,7 +3525,7 @@
 			"timelineColor3":"0x4a485e",
 			"animationEnabled":"false",
 			"timelineColor":"0x63599f"}},
-	"TransitionIdCounter":"24431",
+	"TransitionIdCounter":"24459",
 	"symbol_sym-but-help":{
 		"element_${_text-ingredientsCopy3}":{
 			"timelineColor2":"0xcbbd71",
@@ -3536,7 +3536,7 @@
 			"timelineColor2":"0x168c84",
 			"timelineColor3":"0x2a605c",
 			"timelineColor":"0x00a096"}},
-	"viewStartY":"2168",
+	"viewStartY":"3176",
 	"expanded:images/hand2.png":"nil",
 	"symbol_sym-ing-2":{
 		"element_${_i2-1}":{
