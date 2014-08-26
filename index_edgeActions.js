@@ -1488,4 +1488,68 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    })("sym-event-placeholder");
    //Edge symbol end:'sym-event-placeholder'
 
+   //=========================================================
+   
+   //Edge symbol: 'sym-delto'
+   (function(symbolName) {   
+   
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle4}", "click", function(sym, e) {
+         
+         // insert code for mouse click here
+         // Navigate to a new URL in a new window
+         // (replace "_blank" with appropriate target attribute)
+         window.open("http://www.deltomed.com/", "_blank");
+         
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle4}", "mouseover", function(sym, e) {
+         sym.$("delto2").css("opacity", 1);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle4}", "mouseout", function(sym, e) {
+         sym.$("delto2").css("opacity", 0.8);
+
+      });
+      //Edge binding end
+
+   })("sym-delto");
+   //Edge symbol end:'sym-delto'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-powered'
+   (function(symbolName) {   
+   
+      Symbol.bindElementAction(compId, symbolName, "${_powered}", "mouseover", function(sym, e) {
+         var pos = sym.getPosition();
+         sym.play(pos);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_powered}", "mouseout", function(sym, e) {
+         var pos = sym.getPosition();
+         sym.playReverse(pos);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_powered}", "click", function(sym, e) {
+         // insert code for mouse click here
+         // Navigate to a new URL in a new window
+         // (replace "_blank" with appropriate target attribute)
+         window.open("http://www.inventgraphic.com", "_blank");
+         
+
+      });
+      //Edge binding end
+
+   })("sym-powered");
+   //Edge symbol end:'sym-powered'
+
 })(jQuery, AdobeEdge, "EDGE-96553822");

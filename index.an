@@ -550,6 +550,16 @@
 \"Down-level\": {\
    \"timelines\": {\
 \
+   }},\
+\"sym-delto\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"sym-powered\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
    }}\
 }",
 	"expanded:images/bz1.png":"nil",
@@ -565,7 +575,7 @@
 	"expanded:images/page-1-bg2.png":"nil",
 	"sym-pg1-grass-Default Timeline_playhead_ms":"0",
 	"expanded:images/hoolaa.png":"nil",
-	"pref__general__AutoKeyframePropertiesArmed":"false",
+	"pref__general__AutoKeyframePropertiesArmed":"true",
 	"sym-back-to-Default Timeline_playhead_ms":"0",
 	"expanded:images/pohon.png":"nil",
 	"expanded:images/sayap1.png":"nil",
@@ -1429,6 +1439,12 @@
 	"sym-want-know-Default Timeline_mark_ms":"-1",
 	"expanded:images/boy-roller.png":"nil",
 	"expanded:images/left-root.png":"nil",
+	"symbol_sym-powered":{
+		"element_${_powered}":{
+			"timelineColor2":"0xba5b89",
+			"timelineColor3":"0x734a5f",
+			"animationEnabled":"true",
+			"timelineColor":"0xdb619d"}},
 	"symbol_sym-boy-play":{
 		"element_${_handCopy3}":{
 			"timelineColor2":"0xcbbd71",
@@ -1609,9 +1625,13 @@
 			"timelineColor2":"0x5a558a",
 			"timelineColor3":"0x4a485e",
 			"timelineColor":"0x63599f"}},
+	"sym-powered-Default Timeline_mark_ms":"-1",
 	"sym-cloud-far-Default Timeline_mark_ms":"-1",
+	"expanded:images/inverteditem.png":"nil",
+	"sym-delto-Default Timeline_playhead_ms":"0",
 	"expanded:images/ropeGirl-hair.png":"nil",
 	"expanded:images/tv_inside2.png":"nil",
+	"sym-but-product-Default Timeline_mark_ms":"-1",
 	"expanded:images/delto.gif":"nil",
 	"expanded:images/antanGinflag2.png":"nil",
 	"expanded:images/crayon-2.png":"nil",
@@ -1655,7 +1675,7 @@
 			"timelineColor3":"0x7b7652",
 			"locked":"false",
 			"timelineColor":"0xeedf79"}},
-	"viewStartMs":"-31.680710199481",
+	"viewStartMs":"-8.2462532649694",
 	"expanded:images/secondLeaf2.png":"nil",
 	"expanded:images/flowers2.png":"nil",
 	"symbol_sym-know":{
@@ -1968,7 +1988,16 @@
 			"animationEnabled":"true",
 			"timelineColor3":"0x81714f"},
 		"defaultStageParentWidth":"500px"},
-	"sym-but-product-Default Timeline_mark_ms":"-1",
+	"symbol_sym-delto":{
+		"element_${_delto2}":{
+			"timelineColor2":"0x107faa",
+			"timelineColor3":"0x295a6d",
+			"invisible":"false",
+			"timelineColor":"0x008dc8"},
+		"element_${_Rectangle4}":{
+			"timelineColor2":"0x107faa",
+			"timelineColor3":"0x295a6d",
+			"timelineColor":"0x008dc8"}},
 	"expanded:images/firstLeaf2.png":"nil",
 	"symbol_sym-ing-41":{
 		"element_${_firstLeaf2}":{
@@ -2369,11 +2398,6 @@
 			"timelineColor":"0x00a9fa",
 			"animationEnabled":"false",
 			"invisible":"false"},
-		"element_${_Text}":{
-			"timelineColor2":"0xba5b89",
-			"timelineColor3":"0x734a5f",
-			"animationEnabled":"false",
-			"timelineColor":"0xdb619d"},
 		"element_${_env-bot}":{
 			"timelineColor2":"0x168c84",
 			"timelineColor3":"0x2a605c",
@@ -2409,10 +2433,16 @@
 			"timelineColor3":"0x70657c",
 			"animationEnabled":"false",
 			"timelineColor":"0xceaef4"},
+		"element_${_sym-delto}":{
+			"timelineColor2":"0x326a96",
+			"timelineColor3":"0x385063",
+			"animationEnabled":"true",
+			"timelineColor":"0x2f73ad"},
 		"element_${_delto2}":{
-			"timelineColor2":"0x107faa",
-			"timelineColor3":"0x295a6d",
-			"timelineColor":"0x008dc8"},
+			"timelineColor2":"0x1095d2",
+			"timelineColor3":"0x29647e",
+			"animationEnabled":"false",
+			"timelineColor":"0x00a9fa"},
 		"element_${_baloon}":{
 			"timelineColor2":"0xd35d6e",
 			"timelineColor3":"0x7e4b52",
@@ -2431,6 +2461,11 @@
 			"timelineColor3":"0x81714f",
 			"animationEnabled":"false",
 			"timelineColor":"0xffd46d"},
+		"element_${_powered}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"animationEnabled":"false",
+			"timelineColor":"0xfb657a"},
 		"element_${_sym-en}":{
 			"timelineColor2":"0xb099ce",
 			"timelineColor3":"0x70657c",
@@ -2727,11 +2762,20 @@
 			"timelineColor3":"0x456a55",
 			"animationEnabled":"false",
 			"timelineColor":"0x50bd82"},
+		"element_${_sym-powered}":{
+			"timelineColor2":"0xb099ce",
+			"timelineColor3":"0x70657c",
+			"animationEnabled":"true",
+			"timelineColor":"0xceaef4"},
 		"element_${_green-env}":{
 			"timelineColor2":"0xba5b89",
 			"timelineColor3":"0x734a5f",
 			"animationEnabled":"false",
 			"timelineColor":"0xdb619d"},
+		"element_${_Text2}":{
+			"timelineColor2":"0x5a558a",
+			"timelineColor3":"0x4a485e",
+			"timelineColor":"0x63599f"},
 		"element_${_crayon-5}":{
 			"timelineColor2":"0xcbbd71",
 			"timelineColor3":"0x7b7652",
@@ -3379,7 +3423,7 @@
 			"usingMotionPaths":"true",
 			"scrubbingEnabled":"true"}},
 	"StageZoomFactor":"125",
-	"pixelsPerMs":"0.1578247447269",
+	"pixelsPerMs":"0.60633597336142",
 	"sym-girl-educated-Default Timeline_playhead_ms":"0",
 	"sym-boy-roller-Default Timeline_playhead_ms":"0",
 	"symbol_sym-ing-8":{
@@ -3481,7 +3525,7 @@
 			"timelineColor3":"0x4a485e",
 			"animationEnabled":"false",
 			"timelineColor":"0x63599f"}},
-	"TransitionIdCounter":"24006",
+	"TransitionIdCounter":"24375",
 	"symbol_sym-but-help":{
 		"element_${_text-ingredientsCopy3}":{
 			"timelineColor2":"0xcbbd71",
@@ -3492,7 +3536,7 @@
 			"timelineColor2":"0x168c84",
 			"timelineColor3":"0x2a605c",
 			"timelineColor":"0x00a096"}},
-	"viewStartY":"0",
+	"viewStartY":"2168",
 	"expanded:images/hand2.png":"nil",
 	"symbol_sym-ing-2":{
 		"element_${_i2-1}":{
@@ -3553,7 +3597,7 @@
 			"timelineColor":"0x00a096"}},
 	"expanded:images/ropeGirl2.png":"nil",
 	"sym-GirlHair-Default Timeline_mark_ms":"-1",
-	"expanded:images/inverteditem.png":"nil",
+	"sym-powered-Default Timeline_playhead_ms":"0",
 	"sym-info-but-Default Timeline_playhead_ms":"0",
 	"XProperty":"left",
 	"sym-ball-rotate-Default Timeline_playhead_ms":"0",
@@ -3633,7 +3677,7 @@
 			"timelineColor2":"0x326a96",
 			"timelineColor3":"0x385063",
 			"timelineColor":"0x2f73ad"}},
-	"nextElementColorIndex":"6",
+	"nextElementColorIndex":"12",
 	"symbol_sym-info-but":{
 		"element_${_Ellipse3}":{
 			"timelineColor2":"0x4fa275",
@@ -3813,7 +3857,7 @@
 			"animationEnabled":"false",
 			"timelineColor":"0xffd46d"}},
 	"expanded:images/ropeGirl.png":"nil",
-	"pref__general__AutoKeyframeProperties":"true",
+	"pref__general__AutoKeyframeProperties":"false",
 	"symbol_sym-busa":{
 		"element_${_Ellipse2}":{
 			"timelineColor2":"0x168c84",
