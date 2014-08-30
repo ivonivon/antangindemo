@@ -93,6 +93,14 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 
       Symbol.bindElementAction(compId, symbolName, "${_en2}", "click", function(sym, e) {
          // Change the text in an element [English]
+         
+         // Menu
+         sym.getSymbol("sym-but-product").$("text-product").html("PRODUCT");
+         sym.getSymbol("sym-but-ing").$("text-ingredients").html("INGREDIENTS");
+         sym.getSymbol("sym-but-news").$("text-news").html("NEWS");
+         sym.getSymbol("sym-but-kids").$("text-corner").html("KID'S CORNER");
+         sym.getSymbol("sym-but-help").$("text-help").html("HELP?");
+         
          // Page1 
          sym.$("P_P1_A1").html("Masuk angin is often called the symptoms of stomach, fever, headache, and cold sweat.");
          sym.$("T_P1_A1").html("What is masuk angin?");
@@ -108,6 +116,16 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
          sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-1").$("P_P2_A2").html("Take 3 times daily after meals until the condition improved<br />• For children aged 1 year : 1/2 sachet<br />• For children aged 2-6 year : 1 sachet.");
          sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-1").$("T_P2_A3").html("Honey");
          sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-1").$("T_P2_A4").html("Mint");
+         
+         // Page2-2
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-2").$("T_P2").html("PROCESS");
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-2").$("T_P22_A1").html("GOOD NATURE");
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-2").$("T_P22_A2").html("CAREFULLY SELECTED");
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-2").$("T_P22_A3").html("POTENTIAL RAW METARIAL");
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-2").$("T_P22_A4").html("STATE OF THE ART TECHNOLOGY");
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-2").$("T_P22_A5").html("QUALITY CONTROL");
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-2").$("T_P22_A6").html("HIGH QUALITY PRODUCT");
+         
          // Page2-3
          sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-3").$("T_P23").html("RESEARCH & DEVELOPMENT");
          sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-3").$("T_P23_A1").html("Pilot Plant");
@@ -126,15 +144,35 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
          sym.$("P_P3_A7-2").html("Give warmth to body and reduce nausea & headache.");
          sym.$("P_P3_A8-2").html("Increase the body endurance, and against infection especially in the case of the common cold and ISPA.");
          
+         // Page4 / News
+         sym.getSymbol("sym-houseW").$("P_P4_A1").html("Full of Games of Coloring & Puzzles Activities.");
+         sym.getSymbol("sym-houseW").getSymbol("sym-want-know").$("text-P4-want-to-know").html("Want to know?");
+         sym.getSymbol("sym-houseW").getSymbol("sym-want-know").$("text-P4-click").html("Click...");
+         
          // Page5 / Contact
          sym.$("T_P5").html("NEED HELP?");
          sym.$("T_P5_A2").html("— PLANT —");
+         
+         // Mail Form
+         sym.getSymbol("sym-env2").$("text-P6-name").html("Full Name*:");
+         sym.getSymbol("sym-env2").$("text-P6-company").html("Company*:");
+         sym.getSymbol("sym-env2").$("text-P6-mail").html("Email Address*:");
+         sym.getSymbol("sym-env2").$("text-P6-message").html("Message*:");
+         sym.getSymbol("sym-env2").$("text-P6-mandatory").html("*) Must be Filled");
+         sym.getSymbol("sym-env2").$("text-P6-send").html("Send");
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_id2}", "click", function(sym, e) {
          // Change the text in an element [Bahasa]
+         // Menu
+         sym.getSymbol("sym-but-product").$("text-product").html("PRODUK");
+         sym.getSymbol("sym-but-ing").$("text-ingredients").html("KOMPOSISI");
+         sym.getSymbol("sym-but-news").$("text-news").html("BERITA");
+         sym.getSymbol("sym-but-kids").$("text-corner").html("DUNIA ANAK");
+         sym.getSymbol("sym-but-help").$("text-help").html("BANTUAN?");
+         
          // Page1
          sym.$("P_P1_A1").html("Masuk angin sering disebut gejala perut kembung, meriang, kepala pusing dan keluar keringat dingin.");
          sym.$("T_P1_A1").html("Apa sih masuk angin?");
@@ -150,6 +188,16 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
          sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-1").$("P_P2_A2").html("Minum 3 kali sehari, sesudah makan sampai membaik<br />• Untuk anak 1 tahun : 1/2 sachet<br />• Untuk anak 2-6 tahun : 1 sachet");
          sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-1").$("T_P2_A3").html("Madu");
          sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-1").$("T_P2_A4").html("Meniran");
+         
+         // Page2-2
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-2").$("T_P2").html("PROSES");
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-2").$("T_P22_A1").html("BERASAL DARI ALAM");
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-2").$("T_P22_A2").html("DIPILIH HATI-HATI");
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-2").$("T_P22_A3").html("BAHAN MENTAL YANG BERPOTENSI");
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-2").$("T_P22_A4").html("TEKNOLOGI MODERN");
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-2").$("T_P22_A5").html("PEMERIKSAAN KUALITAS SECARA KETAT");
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-2").$("T_P22_A6").html("PRODUK BERKUALITAS TINGGI");
+         
          // Page2-3
          sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-3").$("T_P23").html("PENELITIAN & PENGEMBANGAN");
          sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-3").$("T_P23_A1").html("Pilot Plant");
@@ -168,9 +216,23 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
          sym.$("P_P3_A7-2").html("Menghangatkan badan dan meredakan mual & pusing.");
          sym.$("P_P3_A8-2").html("Meningkatkan daya tahan tubuh dan melawan infeksi, khususnya pada kasus common cold dan ISPA.");
          
+         // Page4 / News
+         sym.getSymbol("sym-houseW").$("P_P4_A1").html("Lomba berisi aktivitas mewarnai dan merangkai puzzle.");
+         sym.getSymbol("sym-houseW").getSymbol("sym-want-know").$("text-P4-want-to-know").html("Ingin tahu?");
+         sym.getSymbol("sym-houseW").getSymbol("sym-want-know").$("text-P4-click").html("Klik...");
+         
+         
          // Page5 / Contact
          sym.$("T_P5").html("BANTUAN?");
          sym.$("T_P5_A2").html("— PABRIK —");
+         
+         // Mail Form
+         sym.getSymbol("sym-env2").$("text-P6-name").html("Nama*:");
+         sym.getSymbol("sym-env2").$("text-P6-company").html("Perusahaan*:");
+         sym.getSymbol("sym-env2").$("text-P6-mail").html("Email*:");
+         sym.getSymbol("sym-env2").$("text-P6-message").html("Pesan*:");
+         sym.getSymbol("sym-env2").$("text-P6-mandatory").html("*) Harus Diisi");
+         sym.getSymbol("sym-env2").$("text-P6-send").html("Kirim");
 
       });
       //Edge binding end
@@ -891,14 +953,14 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol: 'sym-but-news'
    (function(symbolName) {   
    
-      Symbol.bindElementAction(compId, symbolName, "${_text-ingredientsCopy}", "mouseout", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_text-news}", "mouseout", function(sym, e) {
          var pos = sym.getPosition();
          sym.playReverse(pos);
 
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_text-ingredientsCopy}", "mouseover", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_text-news}", "mouseover", function(sym, e) {
          var pos = sym.getPosition();
          sym.play(pos);
 
@@ -913,14 +975,14 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol: 'sym-but-kids'
    (function(symbolName) {   
    
-      Symbol.bindElementAction(compId, symbolName, "${_text-ingredientsCopy2}", "mouseout", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_text-corner}", "mouseout", function(sym, e) {
          var pos = sym.getPosition();
          sym.playReverse(pos);
 
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_text-ingredientsCopy2}", "mouseover", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_text-corner}", "mouseover", function(sym, e) {
          var pos = sym.getPosition();
          sym.play(pos);
 
@@ -935,14 +997,14 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol: 'sym-but-help'
    (function(symbolName) {   
    
-      Symbol.bindElementAction(compId, symbolName, "${_text-ingredientsCopy3}", "mouseout", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_text-help}", "mouseout", function(sym, e) {
          var pos = sym.getPosition();
          sym.playReverse(pos);
 
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_text-ingredientsCopy3}", "mouseover", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_text-help}", "mouseover", function(sym, e) {
          var pos = sym.getPosition();
          sym.play(pos);
 
