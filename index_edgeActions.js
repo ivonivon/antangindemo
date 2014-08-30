@@ -121,7 +121,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
          sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-2").$("T_P2").html("PROCESS");
          sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-2").$("T_P22_A1").html("GOOD NATURE");
          sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-2").$("T_P22_A2").html("CAREFULLY SELECTED");
-         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-2").$("T_P22_A3").html("POTENTIAL RAW METARIAL");
+         sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-2").$("T_P22_A3").html("POTENTIAL RAW MATERIAL");
          sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-2").$("T_P22_A4").html("STATE OF THE ART TECHNOLOGY");
          sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-2").$("T_P22_A5").html("QUALITY CONTROL");
          sym.getSymbol("sym_page3x").getSymbol("sym-khasiat-2").$("T_P22_A6").html("HIGH QUALITY PRODUCT");
