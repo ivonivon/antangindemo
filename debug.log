@@ -23668,3 +23668,13 @@
 [0829/220329:ERROR:gpu_info_collector_win.cc(91)] Can't retrieve a valid WinSAT assessment.
 [0829/220331:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
 [0829/220331:FATAL:url_request_context.cc(121)] Check failed: false. Leaked 1 URLRequest(s). First URL: http://wpad/wpad.dat.
+[0927/153648:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0927/153648:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0927/153658:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0927/153658:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0927/153701:ERROR:gles2_cmd_decoder.cc(5484)] .SharedGraphicsContext: GL ERROR :GL_INVALID_VALUE : glTexParameteri: unknown texture
+[0927/153701:ERROR:gles2_cmd_decoder.cc(5484)] .SharedGraphicsContext: GL ERROR :GL_INVALID_VALUE : glTexParameteri: unknown texture
+[0927/161226:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0927/161226:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0927/164516:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0927/164516:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
