@@ -1237,28 +1237,28 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    //Edge symbol: 'sym-houseW'
    (function(symbolName) {   
    
-      Symbol.bindElementAction(compId, symbolName, "${_Rectangle4}", "mouseover", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_left_il1}", "mouseover", function(sym, e) {
          var pos = sym.getSymbol("sym-tv-left").getPosition();
          sym.getSymbol("sym-tv-left").play(pos);
 
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_Rectangle4}", "mouseout", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_left_il1}", "mouseout", function(sym, e) {
          var pos = sym.getSymbol("sym-tv-left").getPosition();
          sym.getSymbol("sym-tv-left").playReverse(pos);
 
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_Rectangle4Copy}", "mouseover", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_right_il1}", "mouseover", function(sym, e) {
          var pos = sym.getSymbol("sym-tv-right").getPosition();
          sym.getSymbol("sym-tv-right").play(pos);
 
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_Rectangle4Copy}", "mouseout", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_right_il1}", "mouseout", function(sym, e) {
          var pos = sym.getSymbol("sym-tv-right").getPosition();
          sym.getSymbol("sym-tv-right").playReverse(pos);
          
@@ -1268,13 +1268,13 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_Rectangle4Copy}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_right_il1}", "click", function(sym, e) {
          sym.getSymbol("sym-event-placeholder").play();
 
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_Rectangle4}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_left_il1}", "click", function(sym, e) {
          var pos = sym.getSymbol("sym-event-placeholder").getPosition();
          if (pos == 0) {
          	sym.getSymbol("sym-event-placeholder").playReverse("end");
@@ -1305,11 +1305,206 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_sym-info-but}", "click", function(sym, e) {
-         // insert code for mouse click here
-         // Navigate to a new URL in a new window
-         // (replace "_blank" with appropriate target attribute)
-         window.open("http://www.youtube.com/watch?v=JYJbI0Q-OdM", "_blank");
+      
+
+      Symbol.bindElementAction(compId, symbolName, "${_tv_i2}", "click", function(sym, e) {
+         sym.$("tvc").show();
+         sym.$("yt-link").show();
+         sym.$("sym-event-placeholder").hide();
+         sym.$("sym-idol-placeholder").hide();
+         sym.$("right_il1").hide();
+         sym.$("left_il1").hide();
+         sym.$("yt-link").css("z-index", 100);
+         
+         // Hide an element 
+         sym.$("sym-tv-left").hide();
+         sym.$("sym-tv-right").hide();
+         sym.$("sym-idol-left").hide();
+         sym.$("sym-idol-right").hide();
+         // Change the text in an element
+         sym.$("P_P4_A1").html("Hangatnya melindungi si buah hati.");
+         sym.$("P_P4_A2").html("Antangin Junior 2014");
+         
+         sym.setVariable("current", "item2");
+         sym.$("tv_i1").css("background-color", "rgba(126,126,126,0.00");
+         sym.$("tv_i3").css("background-color", "rgba(126,126,126,0.00");
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_tv_i1}", "click", function(sym, e) {
+         sym.$("tvc").hide();
+         sym.$("sym-event-placeholder").show();
+         sym.$("sym-idol-placeholder").hide();
+         sym.$("yt-link").hide();
+         sym.$("left_il1").show();
+         sym.$("right_il1").show();
+         sym.$("yt-link").css("z-index", 1);
+         
+         sym.$("sym-tv-left").show();
+         sym.$("sym-tv-right").show();
+         sym.$("sym-idol-left").hide();
+         sym.$("sym-idol-right").hide();
+         
+         // Change the text in an element
+         sym.$("P_P4_A1").html("Full of Games of Coloring & Puzzles Activities");
+         sym.$("P_P4_A2").html("Acara Sang Buah Hati");
+         
+         
+         sym.setVariable("current", "item1");
+         sym.$("tv_i2").css("background-color", "rgba(126,126,126,0.00");
+         sym.$("tv_i3").css("background-color", "rgba(126,126,126,0.00");
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_yt-link}", "click", function(sym, e) {
+         window.open("http://www.youtube.com/watch?v=JYJbI0Q-OdM","_blank");
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_tv_i3}", "click", function(sym, e) {
+         sym.$("tvc").hide();
+         sym.$("yt-link").hide();
+         sym.$("sym-event-placeholder").hide();
+         sym.$("sym-idol-placeholder").show();
+         
+         // Hide an element 
+         sym.$("sym-idol-left").show();
+         sym.$("sym-idol-right").show();
+         // Change the text in an element
+         sym.$("P_P4_A1").html("");
+         sym.$("P_P4_A2").html("Indonesian Idol Junior 2014");
+         
+         sym.setVariable("current", "item3");
+         sym.$("tv_i1").css("background-color", "rgba(126,126,126,0.00");
+         sym.$("tv_i2").css("background-color", "rgba(126,126,126,0.00");
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_sym-idol-left}", "click", function(sym, e) {
+         var pos = sym.getSymbol("sym-idol-placeholder").getPosition();
+         if (pos == 0) {
+         	sym.getSymbol("sym-idol-placeholder").playReverse("end");
+         } else {
+         sym.getSymbol("sym-idol-placeholder").playReverse();
+         }
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_sym-idol-right}", "click", function(sym, e) {
+         	
+         	sym.getSymbol("sym-idol-placeholder").play();
+         	
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_tvc}", "click", function(sym, e) {
+         window.open("http://www.youtube.com/watch?v=JYJbI0Q-OdM","_blank");
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_right_il3}", "mouseover", function(sym, e) {
+         var pos = sym.getSymbol("sym-idol-right").getPosition();
+         sym.getSymbol("sym-idol-right").play(pos);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_right_il3}", "mouseout", function(sym, e) {
+         var pos = sym.getSymbol("sym-idol-right").getPosition();
+         sym.getSymbol("sym-idol-right").playReverse(pos);
+         
+         
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_right_il3}", "click", function(sym, e) {
+         sym.getSymbol("sym-idol-placeholder").play();
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_left_il3}", "mouseover", function(sym, e) {
+         var pos = sym.getSymbol("sym-idol-left").getPosition();
+         sym.getSymbol("sym-idol-left").play(pos);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_left_il3}", "mouseout", function(sym, e) {
+         var pos = sym.getSymbol("sym-idol-left").getPosition();
+         sym.getSymbol("sym-idol-left").playReverse(pos);
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_left_il3}", "click", function(sym, e) {
+         var pos = sym.getSymbol("sym-idol-placeholder").getPosition();
+         if (pos == 0) {
+         	sym.getSymbol("sym-idol-placeholder").playReverse("end");
+         } else {
+         sym.getSymbol("sym-idol-placeholder").playReverse();
+         }
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_tv_i1}", "mouseout", function(sym, e) {
+         var current = sym.getVariable("current");
+         if (!(current == "item1")) {
+         	sym.$("tv_il1").css("background-color", "rgba(126,126,126,0.00");
+         }
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_tv_i1}", "mouseover", function(sym, e) {
+         sym.$("tv_i1").css("background-color", "#7e7e7e");
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_tv_i3}", "mouseout", function(sym, e) {
+         var current = sym.getVariable("current");
+         if (!(current == "item3")) {
+         	sym.$("tv_i3").css("background-color", "rgba(255,255,255,0.00");
+         }
+         
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_tv_i2}", "mouseout", function(sym, e) {
+         var current = sym.getVariable("current");
+         if (!(current == "item3")) {
+         	sym.$("tv_i3").css("background-color", "rgba(255,255,255,0.00");
+         }
+         
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_tv_i2}", "mouseover", function(sym, e) {
+         sym.$("tv_i2").css("background-color", "#7e7e7e");
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_tv_i3}", "mouseover", function(sym, e) {
+         sym.$("tv_i3").css("background-color", "#7e7e7e");
          
 
       });
@@ -1613,5 +1808,49 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 
    })("sym-powered");
    //Edge symbol end:'sym-powered'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-idol-placeholder'
+   (function(symbolName) {   
+   
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 250, function(sym, e) {
+         sym.stop();
+
+      });
+      //Edge binding end
+
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 0, function(sym, e) {
+         sym.stop();
+
+      });
+      //Edge binding end
+
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 500, function(sym, e) {
+         sym.stop();
+
+      });
+      //Edge binding end
+
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 750, function(sym, e) {
+         sym.stop();
+
+      });
+      //Edge binding end
+
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 1000, function(sym, e) {
+         sym.stop();
+
+      });
+      //Edge binding end
+
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 1250, function(sym, e) {
+         sym.stop(0);
+
+      });
+      //Edge binding end
+
+   })("sym-idol-placeholder");
+   //Edge symbol end:'sym-idol-placeholder'
 
 })(jQuery, AdobeEdge, "EDGE-96553822");
