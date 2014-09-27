@@ -1375,7 +1375,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
          sym.$("sym-idol-left").show();
          sym.$("sym-idol-right").show();
          // Change the text in an element
-         sym.$("P_P4_A1").html("");
+         sym.$("P_P4_A1").html("PT Deltomed Laboratories sebagai pemilik produk Antangin Junior dengan bangga ikut mensponsori program pencarian bintang cilik Indonesian Idol Junior 2014.");
          sym.$("P_P4_A2").html("Indonesian Idol Junior 2014");
          
          sym.setVariable("current", "item3");
@@ -1405,11 +1405,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_tvc}", "click", function(sym, e) {
-         window.open("http://www.youtube.com/watch?v=JYJbI0Q-OdM","_blank");
-
-      });
-      //Edge binding end
+      
 
       Symbol.bindElementAction(compId, symbolName, "${_right_il3}", "mouseover", function(sym, e) {
          var pos = sym.getSymbol("sym-idol-right").getPosition();
@@ -1469,7 +1465,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_tv_i1}", "mouseover", function(sym, e) {
-         sym.$("tv_i1").css("background-color", "#7e7e7e");
+         sym.$("tv_i1").css("background-color", "#27aae2");
 
       });
       //Edge binding end
@@ -1487,8 +1483,8 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 
       Symbol.bindElementAction(compId, symbolName, "${_tv_i2}", "mouseout", function(sym, e) {
          var current = sym.getVariable("current");
-         if (!(current == "item3")) {
-         	sym.$("tv_i3").css("background-color", "rgba(255,255,255,0.00");
+         if (!(current == "item2")) {
+         	sym.$("tv_i2").css("background-color", "rgba(255,255,255,0.00");
          }
          
          
@@ -1497,15 +1493,21 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_tv_i2}", "mouseover", function(sym, e) {
-         sym.$("tv_i2").css("background-color", "#7e7e7e");
+         sym.$("tv_i2").css("background-color", "#27aae2");
          
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_tv_i3}", "mouseover", function(sym, e) {
-         sym.$("tv_i3").css("background-color", "#7e7e7e");
+         sym.$("tv_i3").css("background-color", "#27aae2");
          
+
+      });
+      //Edge binding end
+
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 0, function(sym, e) {
+         sym.setVariable("current", "item1");
 
       });
       //Edge binding end
@@ -1846,6 +1848,82 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
 
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 1250, function(sym, e) {
          sym.stop(0);
+
+      });
+      //Edge binding end
+
+   })("sym-idol-placeholders");
+   //Edge symbol end:'sym-idol-placeholders'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-event'
+   (function(symbolName) {   
+   
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 750, function(sym, e) {
+         sym.stop(0);
+
+      });
+      //Edge binding end
+
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 500, function(sym, e) {
+         sym.stop();
+
+      });
+      //Edge binding end
+
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 250, function(sym, e) {
+         sym.stop();
+
+      });
+      //Edge binding end
+
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 0, function(sym, e) {
+         sym.stop();
+
+      });
+      //Edge binding end
+
+   })("sym-event");
+   //Edge symbol end:'sym-event'
+
+   //=========================================================
+   
+   //Edge symbol: 'sym-idol-placeholder'
+   (function(symbolName) {   
+   
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 0, function(sym, e) {
+         sym.stop();
+
+      });
+      //Edge binding end
+
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 250, function(sym, e) {
+         sym.stop();
+
+      });
+      //Edge binding end
+
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 500, function(sym, e) {
+         sym.stop();
+
+      });
+      //Edge binding end
+
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 750, function(sym, e) {
+         sym.stop();
+
+      });
+      //Edge binding end
+
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 1250, function(sym, e) {
+         sym.stop(0);
+
+      });
+      //Edge binding end
+
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 1000, function(sym, e) {
+         sym.stop();
 
       });
       //Edge binding end
