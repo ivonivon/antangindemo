@@ -1609,8 +1609,9 @@
 		"element_${_kha31}":{
 			"timelineColor2":"0x168c84",
 			"timelineColor3":"0x2a605c",
-			"locked":"true",
-			"timelineColor":"0x00a096"},
+			"timelineColor":"0x00a096",
+			"locked":"false",
+			"invisible":"false"},
 		"element_${_P_P23_A2}":{
 			"timelineColor2":"0x107faa",
 			"timelineColor3":"0x295a6d",
@@ -2083,7 +2084,7 @@
 			"timelineColor3":"0x4a485e",
 			"animationEnabled":"false",
 			"timelineColor":"0x63599f"}},
-	"TransitionIdCounter":"25759",
+	"TransitionIdCounter":"25807",
 	"symbol_stage":{
 		"element_${_arrow-up}":{
 			"timelineColor2":"0xcbbd71",
@@ -3463,7 +3464,7 @@
 			"timelineColor3":"0x29647e",
 			"invisible":"false",
 			"timelineColor":"0x00a9fa"}},
-	"viewStartY":"283",
+	"viewStartY":"0",
 	"expanded:images/plane.png":"nil",
 	"symbol-ing-1-Default Timeline_mark_ms":"-1",
 	"expanded:images/i2-1.png":"nil",
@@ -3914,7 +3915,7 @@
 			"timelineColor3":"0x2a605c",
 			"timelineColor":"0x00a096",
 			"animationEnabled":"true",
-			"invisible":"false"},
+			"invisible":"true"},
 		"element_${_Group5}":{
 			"timelineColor2":"0x326a96",
 			"timelineColor3":"0x385063",
@@ -3954,7 +3955,7 @@
 			"timelineColor3":"0x456a55",
 			"timelineColor":"0x50bd82",
 			"animationEnabled":"true",
-			"invisible":"true"},
+			"invisible":"false"},
 		"element_${_Rectangle3}":{
 			"timelineColor2":"0x107faa",
 			"timelineColor3":"0x295a6d",
